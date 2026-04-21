@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karteikarten Trainer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Lern-App</p>
+          <h1>Datensicherheit & Data Observability</h1>
+          <p class="hero-copy">
+            Wiederhole deine 28 Karteikarten mit Selbstabfrage, Leitner-Logik
+            und lokal gespeichertem Lernstand.
+          </p>
+        </div>
+        <div class="hero-actions">
+          <button id="shuffle-button" class="secondary-button" type="button">
+            Reihenfolge mischen
+          </button>
+          <button id="reset-button" class="ghost-button" type="button">
+            Lernstand zuruecksetzen
+          </button>
+        </div>
+      </header>
+
+      <main class="layout">
+        <aside class="sidebar">
+          <section class="panel">
+            <div class="panel-heading">
+              <h2>Session</h2>
+              <span id="mode-pill" class="pill accent">Heute faellig</span>
+            </div>
+            <div class="segmented-control" id="mode-selector">
+              <button class="mode-button active" data-mode="due" type="button">
+                Heute faellig
+              </button>
+              <button class="mode-button" data-mode="weak" type="button">
+                Unsichere Karten
+              </button>
+              <button class="mode-button" data-mode="all" type="button">
+                Alle Karten
+              </button>
+            </div>
+            <div class="stats-grid">
+              <article class="stat-card">
+                <span class="stat-label">Faellig</span>
+                <strong id="due-count">0</strong>
+              </article>
+              <article class="stat-card">
+                <span class="stat-label">Heute gelernt</span>
+                <strong id="reviewed-today">0</strong>
+              </article>
+              <article class="stat-card">
+                <span class="stat-label">Sicher</span>
+                <strong id="mastered-count">0</strong>
+              </article>
+              <article class="stat-card">
+                <span class="stat-label">Trefferquote</span>
+                <strong id="confidence-rate">0%</strong>
+              </article>
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-heading">
+              <h2>Kategorien</h2>
+              <span id="category-count" class="pill">0 aktiv</span>
+            </div>
+            <div id="category-filters" class="tag-cloud"></div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-heading">
+              <h2>So lernst du</h2>
+            </div>
+            <ol class="learning-steps">
+              <li>Frage erst selbst beantworten.</li>
+              <li>Karte aufdecken und ehrlich vergleichen.</li>
+              <li>Bewerten: nochmal, unsicher oder sicher.</li>
+              <li>Die App plant Wiederholungen automatisch ein.</li>
+            </ol>
+          </section>
+        </aside>
+
+        <section class="workspace">
+          <div class="workspace-topbar">
+            <div>
+              <p id="progress-copy" class="workspace-copy">
+                Lade Lernstand...
+              </p>
+              <h2 id="session-title">Karteikarte</h2>
+            </div>
+            <div class="workspace-actions">
+              <button id="skip-button" class="ghost-button" type="button">
+                Ueberspringen
+              </button>
+            </div>
+          </div>
+
+          <article id="flashcard" class="flashcard is-front" tabindex="0">
+            <div class="flashcard-meta">
+              <span id="card-number" class="pill">Karte 0</span>
+              <span id="card-category" class="pill">Kategorie</span>
+            </div>
+            <div class="flashcard-face flashcard-front">
+              <p class="face-label">Vorderseite</p>
+              <h3 id="card-front">...</h3>
+            </div>
+            <div class="flashcard-face flashcard-back">
+              <p class="face-label">Rueckseite</p>
+              <div id="card-back" class="answer-content"></div>
+            </div>
+          </article>
+
+          <div class="controls">
+            <button id="flip-button" class="primary-button" type="button">
+              Karte aufdecken
+            </button>
+            <div id="rating-controls" class="rating-controls hidden">
+              <button
+                class="rating-button low"
+                data-rating="again"
+                type="button"
+              >
+                Nochmal
+              </button>
+              <button
+                class="rating-button medium"
+                data-rating="hard"
+                type="button"
+              >
+                Noch unsicher
+              </button>
+              <button
+                class="rating-button high"
+                data-rating="easy"
+                type="button"
+              >
+                Sicher gewusst
+              </button>
+            </div>
+          </div>
+
+          <section class="panel timeline-panel">
+            <div class="panel-heading">
+              <h2>Naechste Wiederholung</h2>
+            </div>
+            <p id="schedule-preview" class="workspace-copy">
+              Nach deiner Bewertung siehst du hier, wann die Karte wiederkommt.
+            </p>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
