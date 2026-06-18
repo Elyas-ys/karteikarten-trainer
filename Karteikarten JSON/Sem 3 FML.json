@@ -1,0 +1,1706 @@
+{
+  "semesterId": "sem3",
+  "semesterLabel": "3. Semester",
+  "semesterTitle": "Drittes Semester",
+  "semesterStatus": "current",
+  "module": {
+    "id": "fortgeschrittenes-maschinelles-lernen",
+    "title": "Fortgeschrittenes Maschinelles Lernen (FML)",
+    "shortTitle": "FML",
+    "status": "imported",
+    "topics": [
+      {
+        "id": "vorlesung-4-lineare-regression-diagnostik",
+        "title": "Vorlesung 4: Lineare Regression und Diagnostik",
+        "cards": [
+          {
+            "id": "sem3-fml-vorlesung-4-001",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist der Regressand?",
+            "back": "Der Regressand ist die abhängige, zu erklärende Variable. In der Regressionsgleichung steht er links als y.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Grundbegriffe"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-002",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist der Regressor?",
+            "back": "Der Regressor ist die unabhängige, erklärende Variable. In der einfachen Regression steht er rechts als x.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Grundbegriffe"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-003",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Welche Variable ist endogen und welche exogen?",
+            "back": "Endogen ist im Kontext der Vorlesung vor allem y, also die zu erklärende Variable. Exogen ist x, also die von außen gegebene erklärende Variable.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Grundbegriffe"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-004",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist die Konstante in der linearen Regression?",
+            "back": "Die Konstante ist der Achsenabschnitt a beziehungsweise α. Sie gibt den y-Wert bei x = 0 an.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Lineare Regression"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-005",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist die Steigung in der linearen Regression?",
+            "back": "Die Steigung ist der Koeffizient b beziehungsweise β. Sie gibt an, wie stark sich y ändert, wenn x um eine Einheit steigt.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Lineare Regression"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-006",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Wie lautet das wahre einfache lineare Modell?",
+            "back": "y = a + b x + e. Dabei ist e der Störterm des wahren daten-generierenden Modells.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Lineare Regression"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-007",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Wie lautet das geschätzte einfache lineare Modell?",
+            "back": "y = α + β x + u. Dabei ist u das Residuum des geschätzten Modells.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Lineare Regression"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-008",
+            "type": "comparison",
+            "examRelevance": "medium",
+            "front": "Was ist der Unterschied zwischen Störterm und Residuum?",
+            "back": "Der Störterm e gehört zum wahren Modell und ist nicht beobachtbar. Das Residuum u ist der beobachtete Schätzfehler im geschätzten Modell.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Lineare Regression"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-009",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was minimiert OLS?",
+            "back": "OLS minimiert die Summe der quadrierten Residuen, also die Summe der quadrierten vertikalen Abstände zur Regressionsgeraden.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "OLS"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-010",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Wie lautet die OLS-Formel für β in der einfachen Regression?",
+            "back": "β = Cov(y, x) / Var(x). Die Steigung ist die Kovarianz von y und x geteilt durch die Varianz von x.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "OLS"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-011",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Wie lautet die OLS-Formel für α in der einfachen Regression?",
+            "back": "α = Mittelwert(y) - β · Mittelwert(x).",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "OLS"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-012",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie berechnet man eine Punktprognose für x0?",
+            "back": "Mit ŷ0 = α + β · x0.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "OLS"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-013",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum ändern sich Schätzwerte bei anderem Seed?",
+            "back": "Weil durch den Seed eine andere Zufallsstichprobe beziehungsweise ein anderer Störterm erzeugt wird. Die Schätzwerte liegen dann anders, aber bei erfüllten Annahmen nahe an der Wahrheit.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "OLS"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-014",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was bedeutet ein CAPM-Beta von 0,5?",
+            "back": "Die Aktie bewegt sich ungefähr halb so stark wie der Markt. Bei +20 % Marktbewegung ergibt das modellhaft etwa +10 % Aktienbewegung plus Störterm.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "CAPM-Beispiel"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-015",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was bedeutet ein CAPM-Beta von 1,5?",
+            "back": "Die Aktie reagiert stärker als der Markt, ungefähr anderthalbmal so stark.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "CAPM-Beispiel"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-016",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist idiosynkratisches Risiko?",
+            "back": "Der aktienspezifische Zufallsanteil, der nicht durch den Gesamtmarkt erklärt wird. Im Beispiel ist das ε.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "CAPM-Beispiel"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-017",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum arbeitet man bei Aktienbeispielen eher mit Renditen als mit Kursen?",
+            "back": "Kurse können nichtstationär sein. Regressionen auf nichtstationären Zeitreihen können Scheinregressionen erzeugen.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Zeitreihen"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-018",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Welche Spalten sind im Regressionsoutput besonders wichtig?",
+            "back": "Estimate, Standard Error, t value und p-Wert. Estimate ist der Schätzwert, Standard Error seine Unsicherheit, t value die Teststatistik.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Output-Interpretation"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-019",
+            "type": "exam_question",
+            "examRelevance": "high",
+            "front": "Wie testet man H0: β = 0?",
+            "back": "Mit t = β / SE(β). Bei |t| > 2 oder p < 0,05 wird H0 auf ca. 5 %-Niveau verworfen.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Hypothesentest"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-020",
+            "type": "exam_question",
+            "examRelevance": "high",
+            "front": "Wie testet man H0: β = q?",
+            "back": "Mit t = (β - q) / SE(β). Danach vergleicht man mit dem kritischen Wert oder nutzt den p-Wert.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Hypothesentest"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-021",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Wann wird eine Nullhypothese über den p-Wert verworfen?",
+            "back": "Wenn der p-Wert kleiner als das Signifikanzniveau ist, typischerweise p < 0,05.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Hypothesentest"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-022",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was bedeutet |t| > 2 in der Vorlesungsregel?",
+            "back": "Bei einem zweiseitigen Test auf ungefähr 5 %-Niveau spricht |t| > 2 gegen die Nullhypothese.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Hypothesentest"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-023",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Ist das Nicht-Verwerfen einer H0 ein Beweis der H0?",
+            "back": "Nein. Es bedeutet nur, dass die Daten nicht stark genug gegen H0 sprechen.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Hypothesentest"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-024",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum kann Nicht-Verwerfen kein Beweis sein?",
+            "back": "Weil man mehrere verschiedene Nullhypothesen, etwa β = 1 und β = 1,1, gleichzeitig nicht verwerfen kann. Beide können aber nicht gleichzeitig exakt wahr sein.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Hypothesentest"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-025",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was bedeutet BLUE?",
+            "back": "Best Linear Unbiased Estimator: bester linearer unverzerrter Schätzer unter den Gauß-Markov-Annahmen.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Gauß-Markov"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-026",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was bedeutet 'unverzerrt' bei einem Schätzer?",
+            "back": "Der Erwartungswert des Schätzers entspricht dem wahren Parameter, z. B. E(β) = b.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Gauß-Markov"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-027",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was bedeutet 'Best' bei BLUE?",
+            "back": "Der Schätzer hat unter den linearen unverzerrten Schätzern die kleinste Varianz.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Gauß-Markov"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-028",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was ist A0 im Kontext der Vorlesung?",
+            "back": "Eine korrekte lineare Spezifikation: passende funktionale Form und relevante Regressoren im Modell.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Gauß-Markov"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-029",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist A1 der Gauß-Markov-Annahmen?",
+            "back": "Der Erwartungswert der Störterme ist null: E(e_i) = 0.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Gauß-Markov"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-030",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist A2 der Gauß-Markov-Annahmen?",
+            "back": "Exogenität: Störterm und Regressor sind unabhängig beziehungsweise x wird von außerhalb des Modells gegeben.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Gauß-Markov"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-031",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist A3 der Gauß-Markov-Annahmen?",
+            "back": "Homoskedastizität: Die Varianz der Störterme ist konstant.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Gauß-Markov"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-032",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist A4 der Gauß-Markov-Annahmen?",
+            "back": "Keine Autokorrelation der Störterme: Cov(e_i, e_j) = 0 für i ≠ j.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Gauß-Markov"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-033",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist A5 der Gauß-Markov-Annahmen?",
+            "back": "Bei multipler Regression darf keine lineare Abhängigkeit zwischen den Regressoren bestehen.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Gauß-Markov"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-034",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum hilft Residualanalyse nicht direkt bei A1?",
+            "back": "Bei linearer Regression mit Achsenabschnitt ist der Mittelwert der Residuen konstruktionsbedingt nahe null.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Regressionsdiagnostik"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-035",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Warum hilft Residualanalyse nicht direkt bei A2?",
+            "back": "Der Residualvektor steht konstruktionsbedingt senkrecht auf dem geschätzten Regressionsvektor. Exogenität muss durch Design und Fachlogik abgesichert werden.",
+            "difficulty": "hard",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Regressionsdiagnostik"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-036",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Welcher Test prüft auf Fehlspezifikation?",
+            "back": "Der Ramsey-RESET-Test. Die Nullhypothese lautet sinngemäß: keine Fehlspezifikation.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Regressionsdiagnostik"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-037",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Welche Ursachen kann eine Fehlspezifikation haben?",
+            "back": "Eine falsche funktionale Form oder fehlende wichtige erklärende Variablen.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Regressionsdiagnostik"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-038",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Welche Tests prüfen auf Heteroskedastizität?",
+            "back": "Breusch-Pagan-Test und White-Test. Die Nullhypothese lautet Homoskedastizität.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Regressionsdiagnostik"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-039",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum wird der White-Test hervorgehoben?",
+            "back": "Er kann auch bei nicht-normalverteilten Residuen angewendet werden.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Regressionsdiagnostik"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-040",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Wie prüft man Autokorrelation im Lag 1?",
+            "back": "Mit dem Durbin-Watson-Test.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Regressionsdiagnostik"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-041",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Wie prüft man Autokorrelation über mehrere Lags?",
+            "back": "Mit der Autokorrelationsfunktion, also ACF.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Regressionsdiagnostik"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-042",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Wofür nutzt man VIF?",
+            "back": "Zur Erkennung von Multikollinearität beziehungsweise redundanten Regressoren.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Regressionsdiagnostik"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-043",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist Heteroskedastizität?",
+            "back": "Die Varianz der Störterme ist nicht konstant. Residuen wirken dann nicht so, als kämen sie immer aus derselben Urne.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Heteroskedastizität"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-044",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum ist Heteroskedastizität bei Finanzmarktdaten typisch?",
+            "back": "Weil es ruhige und nervöse Marktphasen gibt. Die Schwankungsintensität ist nicht konstant.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Heteroskedastizität"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-045",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was ändern HAC-/Newey-West-Standardfehler?",
+            "back": "Sie ändern die Standardfehler und damit t-Werte und p-Werte, aber nicht die geschätzten Koeffizienten.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "HAC-Standardfehler"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-046",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was bleibt bei Heteroskedastizität unter geeigneten Bedingungen erhalten?",
+            "back": "Die Punktschätzer können konsistent bleiben. Die normalen Standardfehler sind jedoch falsch.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "HAC-Standardfehler"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-047",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was bedeutet Konsistenz?",
+            "back": "Mit wachsender Stichprobe konvergiert der Schätzer in Wahrscheinlichkeit gegen den wahren Parameter.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Konsistenz"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-048",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen Unverzerrtheit und Konsistenz?",
+            "back": "Unverzerrtheit ist eine Aussage über den Erwartungswert des Schätzers. Konsistenz ist eine Grenzwertaussage für wachsende Stichproben.",
+            "difficulty": "hard",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Konsistenz"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-049",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist Volatilitätsclustering?",
+            "back": "Große Bewegungen treten an Finanzmärkten zeitlich gehäuft auf. Die Richtung ist nicht sicher, aber die Größe der Bewegung kann gehäuft sein.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Finanzmarktdaten"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-050",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Warum sind quadrierte Residuen bei Finanzmarktdaten interessant?",
+            "back": "Durch Quadrieren verschwindet die Richtung. Autokorrelation in quadrierten Residuen zeigt Volatilitätsclustering.",
+            "difficulty": "hard",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Finanzmarktdaten"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-051",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist ein Strukturbruch?",
+            "back": "Eine Änderung der Modellparameter über die Zeit, zum Beispiel eine Änderung von Alpha oder Beta.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Strukturbruch"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-052",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was passiert bei einer normalen Regression trotz Strukturbruch?",
+            "back": "Das Modell darf nur einen Parameter schätzen und liefert deshalb einen Kompromisswert über beide Perioden.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Strukturbruch"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-053",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was war die Wahrheit im Strukturbruch-Beispiel für Beta?",
+            "back": "In Periode 1 war β = 0,5, in Periode 2 war β = 1,5. Die Änderung betrug also +1,0.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Strukturbruch"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-054",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was schätzt ein 0/1-Dummy im Strukturbruchmodell?",
+            "back": "Er schätzt die Änderung des Achsenabschnitts von Periode 1 zu Periode 2.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Strukturbruch"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-055",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was schätzt ein Dummy, der nach dem Bruch den x-Wert enthält?",
+            "back": "Er schätzt die Änderung der Steigung beziehungsweise des Betas von Periode 1 zu Periode 2.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Strukturbruch"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-056",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Wie lautet die Strukturbruch-Schätzgleichung mit Alpha- und Beta-Bruch?",
+            "back": "y = α1 + Δα·D1 + β1·x + Δβ·D2 + u. D1 misst Alpha-Änderung, D2 misst Beta-Änderung.",
+            "difficulty": "hard",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Strukturbruch"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-057",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie berechnet man das Beta der zweiten Periode im Dummy-Modell?",
+            "back": "Beta in Periode 2 = β1 + Δβ.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Strukturbruch"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-058",
+            "type": "exam_question",
+            "examRelevance": "high",
+            "front": "Wie testet man, ob sich Beta strukturell geändert hat?",
+            "back": "Man testet die Nullhypothese H0: Δβ = 0. Wird sie verworfen, spricht das für eine signifikante Beta-Änderung.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Strukturbruch"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-059",
+            "type": "exam_question",
+            "examRelevance": "high",
+            "front": "Wie testet man, ob sich Alpha strukturell geändert hat?",
+            "back": "Man testet H0: Δα = 0. Wird sie verworfen, spricht das für eine signifikante Änderung des Achsenabschnitts.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Strukturbruch"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-060",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist rekursive Parameterschätzung?",
+            "back": "Ein Modell wird auf einem Startfenster geschätzt und dann mit schrittweise erweiterten Stichproben neu geschätzt, um Parameterdrift sichtbar zu machen.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Rekursive Parameterschätzung"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-061",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie erkennt man mit rekursiver Parameterschätzung einen möglichen Strukturbruch?",
+            "back": "Wenn die geschätzten Parameter nicht stabil um den Anfangswert schwanken, sondern systematisch wegdriften.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Rekursive Parameterschätzung"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-062",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie hängt Strukturbruch mit Model Drift zusammen?",
+            "back": "Ein Strukturbruch zeigt, dass sich die Beziehung zwischen Variablen geändert hat. Das ist eine formale Sicht auf Drift-Probleme.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Model Drift"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-063",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Wie kann man die Idee rekursiver Parameterschätzung auf neuronale Netze übertragen?",
+            "back": "Man trainiert auf wachsenden Zeitfenstern und vergleicht Gewichte oder Profile. Starke systematische Änderungen deuten auf Drift hin.",
+            "difficulty": "hard",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Model Drift"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-064",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist ein Random Walk?",
+            "back": "Ein nichtstationärer Prozess der Form y_t = y_{t-1} + ε_t.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Zeitreihen"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-065",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist eine Scheinregression?",
+            "back": "Eine Regression, die scheinbar hohe Signifikanz und hohes R² zeigt, obwohl kein echter Zusammenhang besteht.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Scheinregression"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-066",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Wie können zwei unabhängige Random Walks eine Scheinregression erzeugen?",
+            "back": "Beide Zeitreihen können trendartig driften. Eine Level-Regression kann dann Zusammenhang suggerieren, obwohl die Zufallsterme unabhängig sind.",
+            "difficulty": "hard",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Scheinregression"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-067",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Welche Diagnose ist bei Scheinregressionen besonders wichtig?",
+            "back": "Die Autokorrelationsfunktion der Residuen. Klingt Autokorrelation nicht nach wenigen Lags ab, ist das Modell problematisch.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Scheinregression"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-068",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Warum betrachtet man bei Scheinregressionen Differenzen?",
+            "back": "Wenn y = α + βx wirklich gilt, müsste auch Δy = βΔx sichtbar sein. Verschwindet der Zusammenhang in Differenzen, ist die Level-Regression verdächtig.",
+            "difficulty": "hard",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Scheinregression"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-069",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist eine stationäre Zeitreihe im Sinne der Vorlesung?",
+            "back": "Eine Zeitreihe, die in einem stabilen Bereich bleibt und nicht dauerhaft aus einer Box herausläuft.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Zeitreihen"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-070",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Welche drei Bedingungen sind für kausale Interpretation wichtig?",
+            "back": "Statistischer Zusammenhang mit Diagnostik, Ursache zeitlich vor Wirkung, keine versteckte Drittvariable.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Kausalität"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-071",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum beweist eine signifikante Regression keine Kausalität?",
+            "back": "Weil eine versteckte Drittvariable beide Größen treiben kann oder die zeitliche/fachliche Kausalstruktur fehlen kann.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Kausalität"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-072",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was zeigt das Eis-Temperatur-Unfälle-Beispiel?",
+            "back": "Eiskonsum und Unfälle können korrelieren, weil Temperatur beide treibt. Eis verursacht dadurch nicht automatisch Unfälle.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Kausalität"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-073",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was zeigt das Inflationsbeispiel?",
+            "back": "Inflation kann viele Preise und Indizes gleichzeitig treiben und dadurch scheinbare Zusammenhänge erzeugen.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Kausalität"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-074",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was ist die Folge von Nichtlinearität oder falscher funktionaler Form?",
+            "back": "Verzerrte Schätzwerte. Man sollte eine andere funktionale Form prüfen.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Annahmenverletzungen"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-075",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was ist die Folge fehlender relevanter Regressoren?",
+            "back": "Verzerrte Schätzwerte, weil ein wichtiger erklärender Faktor fehlt.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Annahmenverletzungen"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-076",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was ist die Folge von Heteroskedastizität?",
+            "back": "OLS ist nicht effizient und die normalen Standardfehler sind falsch. Man sollte HAC-Standardfehler nutzen oder Heteroskedastizität modellieren.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Annahmenverletzungen"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-077",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was ist die Folge von Autokorrelation?",
+            "back": "OLS ist nicht effizient und Standardfehler sind falsch. Man prüft die ACF und kann unter geeigneten Bedingungen HAC-Standardfehler nutzen.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Annahmenverletzungen"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-078",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was ist die Folge von Multikollinearität?",
+            "back": "Die Standardfehler sind korrekt, aber höher als nötig. Die Präzision sinkt.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Annahmenverletzungen"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-079",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Warum ist Nichtnormalität der Residuen nicht die zentrale Gauß-Markov-Problematik?",
+            "back": "Normalverteilung ist keine zentrale Gauß-Markov-Annahme. Bei großen Stichproben sind Tests oft weniger problematisch als bei kleinen Stichproben.",
+            "difficulty": "hard",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Annahmenverletzungen"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-080",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum sollte man bei sehr großen Stichproben das Signifikanzniveau senken?",
+            "back": "Weil große Stichproben Standardfehler senken und auch praktisch irrelevante Effekte statistisch signifikant werden können.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Standardfehler"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-081",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Was erhöht die Präzision eines β-Schätzers?",
+            "back": "Kleinere Störtermvarianz, stärkere Streuung des Regressors und größere Stichproben senken typischerweise den Standardfehler.",
+            "difficulty": "hard",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Standardfehler"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-082",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Was steht bei Var(β) ungefähr im Zähler und Nenner?",
+            "back": "Im Zähler steht die Störtermvarianz σ²; im Nenner steckt die Streuung beziehungsweise Informationsmenge der Regressoren X'X.",
+            "difficulty": "hard",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Standardfehler"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-083",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum können redundante Regressoren problematisch sein?",
+            "back": "Sie erhöhen durch Multikollinearität die Standardfehler und senken die Präzision der Schätzung.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Multikollinearität"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-084",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was ist ein Beispiel für redundante Regressoren?",
+            "back": "Bei einer Ölaktie können verschiedene Ölpreiszeitreihen ähnliche Informationen enthalten. Fachwissen hilft, den passenden Regressor zu wählen.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Multikollinearität"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-085",
+            "type": "exam_question",
+            "examRelevance": "high",
+            "front": "Was muss nach einer Regression in der Klausur fast immer folgen?",
+            "back": "Regressionsdiagnostik: RESET-Test, Heteroskedastizitätstests, Autokorrelationsprüfung, VIF und fachliche Plausibilitätsprüfung.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Klausur"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-086",
+            "type": "exam_question",
+            "examRelevance": "high",
+            "front": "Warum ist nur 'Heteroskedastizität prüfen' keine vollständige Klausurantwort?",
+            "back": "Es sollten konkrete Tests genannt werden, etwa Breusch-Pagan-Test und White-Test.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Klausur"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-087",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Wie interpretiert man einen positiven signifikanten Gender-Koeffizienten im Lohnbeispiel?",
+            "back": "Er spricht dafür, dass Männer im Modell einen signifikant höheren Lohn haben. Danach ist dennoch Diagnostik erforderlich.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Multiple Regression"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-088",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist multiple Regression?",
+            "back": "Eine Regression, bei der y von mehreren x-Variablen abhängt.",
+            "difficulty": "easy",
+            "sourceBasis": "script_supplement",
+            "sourceTopic": "Multiple Regression"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-089",
+            "type": "comparison",
+            "examRelevance": "medium",
+            "front": "Was ist der Unterschied zwischen multipler und multivariater Regression?",
+            "back": "Multiple Regression hat mehrere Regressoren. Multivariate Regression hat eine mehrdimensionale abhängige Variable.",
+            "difficulty": "medium",
+            "sourceBasis": "script_supplement",
+            "sourceTopic": "Multiple Regression"
+          },
+          {
+            "id": "sem3-fml-vorlesung-4-090",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum wurde Maximum Likelihood nicht als Hauptstoff aufgenommen?",
+            "back": "Der Foliensatz enthält es, aber in der Transkription wurde es nur als nächster Abschnitt angekündigt und nicht ausgeführt.",
+            "difficulty": "easy",
+            "sourceBasis": "script_supplement",
+            "sourceTopic": "Quellenabgrenzung"
+          }
+        ]
+      },
+      {
+        "id": "vorlesung-5-logistische-regression",
+        "title": "Vorlesung 5: Logistische Regression",
+        "cards": [
+          {
+            "id": "sem3-fml-vorlesung-5-001",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Wann verwendet man logistische Regression?",
+            "back": "Wenn die Zielvariable binär ist, also nur 0/1 bzw. ja/nein annimmt. Das Modell schätzt P(Y=1|X).",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Grundidee Logit"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-002",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was prognostiziert ein Logit-Modell zuerst?",
+            "back": "Eine Wahrscheinlichkeit für Y=1, nicht direkt die Klasse 0 oder 1.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Grundidee Logit"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-003",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie wird aus einer Logit-Wahrscheinlichkeit eine Klassenprognose?",
+            "back": "Durch einen Cutoff: Liegt die vorhergesagte Wahrscheinlichkeit über der Schwelle, wird Klasse 1 prognostiziert, sonst Klasse 0.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Cutoff"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-004",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Welcher Cutoff wird häufig standardmäßig verwendet?",
+            "back": "0,5. Er ist aber nicht zwingend und kann fachlich optimiert werden.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Cutoff"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-005",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum kann ein anderer Cutoff als 0,5 sinnvoll sein?",
+            "back": "Weil False Positives und False Negatives je nach Anwendung unterschiedliche Kosten oder Nutzen haben können.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Cutoff"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-006",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist eine latente Variable im Logit-Modell?",
+            "back": "Eine nicht direkt beobachtbare Größe hinter einer beobachtbaren 0/1-Entscheidung, z. B. Kaufneigung, Bonität oder Stornoneigung.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Latente Variable"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-007",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie entsteht im Logit-Modell aus der latenten Variable die beobachtbare Zielvariable?",
+            "back": "Y=1, wenn die latente Variable eine Schwelle überschreitet; sonst Y=0.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Latente Variable"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-008",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Wie lautet die einfache latente Gleichung im Logit-Modell?",
+            "back": "a_i = c + b x_i + ε_i. Bei mehreren Regressoren entsprechend a_i = x_iβ + ε_i.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Latente Variable"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-009",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was ist im Autohaus-Beispiel die latente Variable?",
+            "back": "Die Erregung bzw. Kaufneigung des Käufers. Überschreitet sie eine Schwelle, kommt es zum Kauf.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Latente Variable"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-010",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was ist im Rating-Beispiel die latente Variable?",
+            "back": "Die Bonität. Überschreitet sie eine Schwelle, kann eine Firma Investment Grade erhalten.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Latente Variable"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-011",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Welche Verteilung des Störterms wird im Logit-Modell angenommen?",
+            "back": "Eine logistische Verteilung.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Logit vs. Probit"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-012",
+            "type": "comparison",
+            "examRelevance": "medium",
+            "front": "Welche Verteilung des Störterms wird im Probit-Modell angenommen?",
+            "back": "Eine Normalverteilung.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Logit vs. Probit"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-013",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum braucht Maximum Likelihood eine Verteilungsannahme?",
+            "back": "Weil die Wahrscheinlichkeit der beobachteten Daten unter dem Modell berechnet und maximiert werden muss.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Maximum Likelihood"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-014",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist die logistische Verteilungsfunktion im Logit-Kontext?",
+            "back": "Die Funktion F(η), die den linearen Index η=xβ in eine Wahrscheinlichkeit zwischen 0 und 1 transformiert.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Logistische Funktion"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-015",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist η im Logit-Modell?",
+            "back": "Der lineare Index bzw. das Skalarprodukt aus Regressorvektor und Parametervektor: η=xβ.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Logistische Funktion"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-016",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Welche Schritte führen im Logit-Modell zur Prognosewahrscheinlichkeit?",
+            "back": "Regressorvektor bilden, xβ berechnen, xβ in die logistische Funktion einsetzen, Wahrscheinlichkeit P(Y=1|X) erhalten.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Prognose"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-017",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was bedeutet Maximum Likelihood?",
+            "back": "Parameter werden so gewählt, dass die beobachteten Daten unter dem Modell möglichst wahrscheinlich sind.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Maximum Likelihood"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-018",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was zeigt das SPD-Beispiel zur Maximum-Likelihood-Schätzung?",
+            "back": "Bei 2 SPD-Wählern aus 10 Befragten ist die ML-Schätzung p̂=2/10=0,2, also die relative Häufigkeit.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Maximum Likelihood"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-019",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum wird die Likelihood häufig logarithmiert?",
+            "back": "Weil Produkte zu Summen werden und das Maximum wegen der monoton steigenden Logarithmusfunktion erhalten bleibt.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Maximum Likelihood"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-020",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Welche drei Large-Sample-Eigenschaften von ML-Schätzern wurden genannt?",
+            "back": "Konsistenz, asymptotische Effizienz und asymptotische Normalverteilung.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "ML-Eigenschaften"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-021",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was bedeutet Konsistenz eines Schätzers?",
+            "back": "Mit wachsender Stichprobe nähert sich der Schätzer dem wahren Parameterwert an.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "ML-Eigenschaften"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-022",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was bedeutet asymptotisch?",
+            "back": "Eine Eigenschaft gilt im Grenzwert für große Stichproben, also wenn n gegen unendlich geht.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "ML-Eigenschaften"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-023",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum sind große Stichproben bei Logit wichtig?",
+            "back": "Die Testmechanik über Standardfehler, z-Werte und Normalverteilung beruht auf asymptotischen ML-Eigenschaften.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "ML-Eigenschaften"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-024",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Wie berechnet man den z-Wert im Logit-Output?",
+            "back": "z = Estimate / Standard Error.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Hypothesentests"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-025",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie interpretiert man |z| > 2 im Kurskontext?",
+            "back": "Der Parameter ist ungefähr auf 5%-Niveau signifikant; H0: β=0 wird verworfen.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Hypothesentests"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-026",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was bedeutet ein p-Wert kleiner als 5%?",
+            "back": "Die Nullhypothese wird im üblichen Kurskontext verworfen.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Hypothesentests"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-027",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was prüft der Wald-Test im Logit-Modell?",
+            "back": "Einzelne Parameter, typischerweise H0: β_j=0.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Hypothesentests"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-028",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was prüft der Likelihood-Ratio-Test?",
+            "back": "Ob mehrere bzw. alle Regressoren gemeinsam wirkungslos sind: H0: β1=β2=...=βk=0.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Hypothesentests"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-029",
+            "type": "comparison",
+            "examRelevance": "medium",
+            "front": "Welcher Test der linearen Regression entspricht inhaltlich dem LR-Test?",
+            "back": "Der F-Test für die gemeinsame Signifikanz mehrerer Regressoren.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Hypothesentests"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-030",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie bildet man grob ein 95%-Konfidenzintervall im Kurskontext?",
+            "back": "Schätzer ± ungefähr 2 · Standardfehler.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Hypothesentests"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-031",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was sind Odds?",
+            "back": "Das Verhältnis von Eintrittswahrscheinlichkeit zu Gegenwahrscheinlichkeit: p/(1-p).",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Odds und Log-Odds"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-032",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was sind Log-Odds?",
+            "back": "Der Logarithmus der Odds: log(p/(1-p)). Im Logit-Modell sind sie linear in den Regressoren.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Odds und Log-Odds"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-033",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was bedeutet e^β im Logit-Modell exakt?",
+            "back": "Es ist ein Odds Ratio: Die Odds ändern sich bei Erhöhung des Regressors um eine Einheit um den Faktor e^β.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Koeffizienteninterpretation"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-034",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Wann darf e^β näherungsweise als Wahrscheinlichkeitsfaktor gelesen werden?",
+            "back": "Bei kleinen Wahrscheinlichkeiten, weil dann 1-p nahe 1 ist.",
+            "difficulty": "hard",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Koeffizienteninterpretation"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-035",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie interpretiert man ein positives Vorzeichen eines Logit-Koeffizienten?",
+            "back": "Der Regressor erhöht die Wahrscheinlichkeit bzw. Odds der Klasse, die als 1 kodiert ist.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Koeffizienteninterpretation"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-036",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum muss man wissen, welche Klasse als 1 kodiert ist?",
+            "back": "Weil das Vorzeichen immer auf die Wahrscheinlichkeit von Y=1 bezogen ist.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Koeffizienteninterpretation"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-037",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum ist R² aus der linearen Regression nicht direkt für Logit geeignet?",
+            "back": "Logit prognostiziert Wahrscheinlichkeiten, beobachtet wird aber nur 0 oder 1; die Varianzaufklärung eines metrischen Y passt nicht direkt.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Modellgüte"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-038",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum sind Residuen im Logit-Modell schwierig?",
+            "back": "Die Vorhersage ist eine Wahrscheinlichkeit, die Wahrheit aber nur 0/1. Die wahre individuelle Wahrscheinlichkeit wird nicht beobachtet.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Diagnostik"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-039",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist eine Konfusionsmatrix?",
+            "back": "Eine Tabelle, die tatsächliche und vorhergesagte Klassen gegenüberstellt: TP, TN, FP und FN.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Konfusionsmatrix"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-040",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Wie berechnet man Accuracy?",
+            "back": "Accuracy = (TP+TN)/(TP+TN+FP+FN).",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Konfusionsmatrix"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-041",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum kann Accuracy täuschen?",
+            "back": "Bei unausgewogenen Klassen kann man durch Vorhersage der häufigsten Klasse hohe Accuracy erreichen, ohne die wichtige Klasse zu erkennen.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Modellgüte"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-042",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was ist der naive Benchmark bei binärer Klassifikation?",
+            "back": "Immer die häufigste Klasse vorhersagen. Die Accuracy entspricht dann dem Anteil dieser Klasse.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Benchmarking"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-043",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist Sensitivity bzw. Recall?",
+            "back": "TP/(TP+FN). Sie misst, welcher Anteil der tatsächlich positiven Fälle korrekt erkannt wurde.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Konfusionsmatrix"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-044",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist Precision?",
+            "back": "TP/(TP+FP). Sie misst, welcher Anteil der positiven Vorhersagen tatsächlich positiv war.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Konfusionsmatrix"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-045",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Wie hoch ist Sensitivity, wenn immer negativ vorhergesagt wird?",
+            "back": "0, weil kein tatsächlicher positiver Fall als positiv erkannt wird.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Konfusionsmatrix"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-046",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum können False Negatives kritisch sein?",
+            "back": "Weil tatsächliche positive Ereignisse übersehen werden, z. B. Stornos, Ausfälle oder Prozessstörungen.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Konfusionsmatrix"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-047",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist SMOTE bzw. Upsampling im Kontext der Vorlesung?",
+            "back": "Eine Technik, um unterrepräsentierte Klassen künstlich zu erhöhen, z. B. bei seltenen Stornos oder Ausfällen.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Unausgewogene Klassen"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-048",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was passiert, wenn ein Ausfalldatensatz nur 0 und keine 1 enthält?",
+            "back": "Das Modell kann nichts über Ausfälle lernen, weil keine positiven Ausfallbeispiele vorhanden sind.",
+            "difficulty": "medium",
+            "sourceBasis": "script_supplement",
+            "sourceTopic": "Unausgewogene Klassen"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-049",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was ist Data Leakage in diesem Kontext?",
+            "back": "Ein Regressor verrät das Ziel direkt oder fast direkt, wodurch das Modell künstlich gut wirkt.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Fehlerquellen"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-050",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Wofür nutzt man VIF?",
+            "back": "Zur Diagnose von Multikollinearität bzw. redundanten Regressoren.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Fehlerquellen"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-051",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum kann es sinnvoll sein, zwei Softwarefunktionen für Logit zu nutzen?",
+            "back": "Zur Ergebnisabsicherung, besonders bei kostenloser Software oder numerischen Verfahren.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Software"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-052",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was muss man beachten, wenn eine Logit-Funktion Regularisierung/Penalisierung anbietet?",
+            "back": "Für Standard-Maximum-Likelihood muss die Regularisierung ausgeschaltet sein.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Software"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-053",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was war der naive Benchmark im Spam-Beispiel?",
+            "back": "Immer kein Spam vorhersagen, weil etwa 60% der Mails kein Spam waren; Accuracy ca. 60%.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Spamfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-054",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was war der einfache Wort-Benchmark im Spam-Beispiel?",
+            "back": "Prüfen, ob das Wort 'free' vorkommt; dieser Benchmark erreichte etwa 76% Accuracy.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Spamfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-055",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Welche Accuracy erreichte das logistische Spammodell ungefähr?",
+            "back": "Etwa 94% Accuracy.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Spamfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-056",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie wurden E-Mails in der Spamfallstudie vektorisiert?",
+            "back": "Als binärer Wortvektor: Für jedes Wort im Vokabular steht 1, wenn es vorkommt, sonst 0.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Spamfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-057",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Wie wirkte das Wort 'free' im Spammodell?",
+            "back": "Es hatte einen positiven Koeffizienten und erhöhte die Spam-Odds stark; e^1,5 ≈ 4,67.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Spamfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-058",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Wie wirkte das Wort 'George' im Spammodell?",
+            "back": "Es hatte einen stark negativen Koeffizienten und senkte die Spam-Wahrscheinlichkeit deutlich.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Spamfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-059",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was bedeutet ein nicht signifikanter Wortkoeffizient wie bei 'order'?",
+            "back": "Der Einfluss könnte auch null sein; das Wort liefert keinen verlässlichen Beitrag zur Spamklassifikation.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Spamfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-060",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was bedeutet xβ≈-1,72 im Spam-Beispiel?",
+            "back": "Der lineare Index wird in die logistische Funktion eingesetzt und ergab ungefähr 15–16% Spamwahrscheinlichkeit.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Spamfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-061",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Welche Zielkodierung wurde im Rating-Beispiel verwendet?",
+            "back": "Investment Grade wurde als 1 und Speculative Grade als 0 kodiert.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Ratingfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-062",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Welche Regressoren wurden im Rating-Beispiel hervorgehoben?",
+            "back": "Book Leverage/Verschuldung, EBIT und Logsales.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Ratingfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-063",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Welches Vorzeichen erwartet man für Book Leverage im Ratingmodell?",
+            "back": "Negativ, weil höhere Verschuldung die Investment-Grade-Wahrscheinlichkeit senkt.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Ratingfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-064",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Welches Vorzeichen erwartet man für EBIT im Ratingmodell?",
+            "back": "Positiv, weil höhere Profitabilität die Investment-Grade-Wahrscheinlichkeit erhöht.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Ratingfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-065",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Welches Vorzeichen erwartet man für Logsales im Ratingmodell?",
+            "back": "Positiv, weil höhere Umsatzerlöse die Investment-Grade-Wahrscheinlichkeit erhöhen.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Ratingfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-066",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was bedeutet e^1,08≈3 bei Logsales?",
+            "back": "Eine Erhöhung von Logsales um eine Einheit verdreifacht approximativ die Chance/Odds auf Investment Grade.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Ratingfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-067",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Welche Accuracy erreichte das Ratingmodell ungefähr?",
+            "back": "Etwa 83,17%.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Ratingfallstudie"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-068",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie kann ein Logit-Modell für neue Firmenkunden eingesetzt werden?",
+            "back": "Für die neue Firma xβ berechnen, in die logistische Funktion einsetzen und daraus die Investment-Grade-Wahrscheinlichkeit ableiten.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Deployment"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-069",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Was ergab das Beispiel mit dreifacher durchschnittlicher Verschuldung ungefähr?",
+            "back": "xβ≈-2,96 und eine Investment-Grade-Wahrscheinlichkeit von ungefähr 4%.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Deployment"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-070",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist Ordered Logit?",
+            "back": "Ein Logit-Modell für geordnete Kategorien, bei dem eine latente Variable durch mehrere Schwellen in Ratingstufen eingeteilt wird.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Ordered Logit"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-071",
+            "type": "comparison",
+            "examRelevance": "medium",
+            "front": "Was ist der Unterschied zwischen binärem Logit und Ordered Logit?",
+            "back": "Binäres Logit hat eine Schwelle für 0/1; Ordered Logit hat mehrere Schwellen für geordnete Klassen.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Ordered Logit"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-072",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist Multinomial Logit?",
+            "back": "Ein Logit-Modell für mehrere Alternativen ohne natürliche Ordnung.",
+            "difficulty": "medium",
+            "sourceBasis": "script_supplement",
+            "sourceTopic": "Ausblick"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-073",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Nenne eine praktische Anwendung logistischer Regression aus der Vorlesung.",
+            "back": "Zum Beispiel Stornovorhersage, Spamfilter, Ratingklassifikation, Churn, Lead-Prognose oder Prozesswarnsystem.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript_plus_script",
+            "sourceTopic": "Anwendungen"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-074",
+            "type": "exam_question",
+            "examRelevance": "high",
+            "front": "Welche zwei Themen wurden am Ende explizit als prüfungsrelevant genannt?",
+            "back": "Lineare Regression und logistische Regression.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Klausurrelevanz"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-075",
+            "type": "exam_question",
+            "examRelevance": "high",
+            "front": "Was ist der wichtigste Prüfungsfehler bei der Koeffizienteninterpretation im Logit-Modell?",
+            "back": "e^β als exakten Wahrscheinlichkeitsmultiplikator zu lesen. Exakt ist es ein Odds Ratio.",
+            "difficulty": "hard",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Koeffizienteninterpretation"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-076",
+            "type": "comparison",
+            "examRelevance": "medium",
+            "front": "Welche Fehlerfunktion passt im neuronalen Netz zu metrischem Y?",
+            "back": "Mean Squared Error, analog zur Methode der kleinsten Quadrate.",
+            "difficulty": "easy",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Rückblick Regression"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-077",
+            "type": "comparison",
+            "examRelevance": "medium",
+            "front": "Welche Fehlerfunktion passt bei logistischer Regression bzw. binärer Klassifikation?",
+            "back": "Cross Entropy; sie steht eng mit Maximum Likelihood in Verbindung.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Rückblick Regression"
+          },
+          {
+            "id": "sem3-fml-vorlesung-5-078",
+            "type": "exam_question",
+            "examRelevance": "high",
+            "front": "Was bedeutet ein kleiner p-Wert beim RESET-Test?",
+            "back": "Die Nullhypothese korrekter Spezifikation wird verworfen; funktionale Form oder Regressorauswahl ist wahrscheinlich problematisch.",
+            "difficulty": "medium",
+            "sourceBasis": "transcript",
+            "sourceTopic": "Rückblick Lineare Regression"
+          }
+        ]
+      }
+    ]
+  }
+}

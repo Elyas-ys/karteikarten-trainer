@@ -1,0 +1,38 @@
+{
+  "semesterId": "sem3",
+  "semesterLabel": "3. Semester",
+  "semesterTitle": "Drittes Semester",
+  "semesterStatus": "current",
+  "module": {
+    "id": "beispiel-modul",
+    "title": "Beispielmodul",
+    "shortTitle": "Beispiel",
+    "status": "imported",
+    "topics": [
+      {
+        "id": "grundlagen",
+        "title": "Grundlagen",
+        "cards": [
+          {
+            "id": "sem3-beispiel-001",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Welche Frage steht auf der Vorderseite?",
+            "back": "Hier steht die Antwort fuer die Rueckseite."
+          },
+          {
+            "id": "sem3-beispiel-002",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Punkte gehoeren zusammen?",
+            "back": [
+              "Erster Punkt",
+              "Zweiter Punkt",
+              "Dritter Punkt"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

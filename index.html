@@ -11,8 +11,8 @@
       <header class="hero">
         <div>
           <p class="eyebrow">Lern-App</p>
-          <h1>Datensicherheit & Data Observability</h1>
-          <p class="hero-copy">
+          <h1 id="hero-title">Datensicherheit & Data Observability</h1>
+          <p id="hero-copy" class="hero-copy">
             Wiederhole deine 28 Karteikarten mit Selbstabfrage, Leitner-Logik
             und lokal gespeichertem Lernstand.
           </p>
@@ -31,6 +31,14 @@
         <aside class="sidebar">
           <section class="panel">
             <div class="panel-heading">
+              <h2>Studium</h2>
+              <span id="study-count" class="pill">0 Module</span>
+            </div>
+            <div id="study-overview" class="study-overview"></div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-heading">
               <h2>Session</h2>
               <span id="mode-pill" class="pill accent">Heute faellig</span>
             </div>
@@ -43,6 +51,17 @@
               </button>
               <button class="mode-button" data-mode="all" type="button">
                 Alle Karten
+              </button>
+            </div>
+            <div class="scope-selector" id="scope-selector" aria-label="Lernumfang">
+              <button class="scope-button active" data-scope="selection" type="button">
+                Auswahl
+              </button>
+              <button class="scope-button" data-scope="global-due" type="button">
+                Alle faelligen
+              </button>
+              <button class="scope-button" data-scope="past-semesters" type="button">
+                Alte Semester
               </button>
             </div>
             <div class="stats-grid">
@@ -75,6 +94,47 @@
 
           <section class="panel">
             <div class="panel-heading">
+              <h2>Themenstatus</h2>
+              <span id="topic-insight-count" class="pill">0 kritisch</span>
+            </div>
+            <div id="topic-insights" class="topic-insights"></div>
+          </section>
+
+          <section class="panel import-panel">
+            <div class="panel-heading">
+              <h2>Import / Export</h2>
+              <span id="import-count" class="pill">0 Karten</span>
+            </div>
+            <div class="import-actions">
+              <input
+                id="import-file-input"
+                class="visually-hidden"
+                type="file"
+                accept=".json,application/json"
+              />
+              <button id="import-button" class="secondary-button" type="button">
+                JSON importieren
+              </button>
+              <a class="ghost-button import-link" href="./import-vorlage.json">
+                Vorlage
+              </a>
+              <button id="clear-imports-button" class="ghost-button" type="button">
+                Importe leeren
+              </button>
+              <button id="export-imports-button" class="ghost-button" type="button">
+                Importe exportieren
+              </button>
+              <button id="export-progress-button" class="ghost-button" type="button">
+                Lernstand exportieren
+              </button>
+            </div>
+            <p id="import-status" class="workspace-copy import-status">
+              Keine lokalen Importe.
+            </p>
+          </section>
+
+          <section class="panel">
+            <div class="panel-heading">
               <h2>So lernst du</h2>
             </div>
             <ol class="learning-steps">
@@ -101,9 +161,40 @@
             </div>
           </div>
 
+          <section class="panel session-start-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="filter-label">Aktuelle Lernsession</p>
+                <h2 id="session-scope">Auswahl</h2>
+              </div>
+              <span id="session-status-pill" class="pill accent">0 Karten</span>
+            </div>
+            <div class="session-start-body">
+              <p id="session-detail" class="workspace-copy">Bereite Session vor...</p>
+              <div class="session-metrics">
+                <span>
+                  <strong id="session-queue-count">0</strong>
+                  <span>in Session</span>
+                </span>
+                <span>
+                  <strong id="session-topic-count">0</strong>
+                  <span>Themen aktiv</span>
+                </span>
+                <span>
+                  <strong id="session-due-inline">0</strong>
+                  <span>faellig</span>
+                </span>
+              </div>
+              <button id="session-action-button" class="primary-button" type="button">
+                Weiterlernen
+              </button>
+            </div>
+          </section>
+
           <article id="flashcard" class="flashcard is-front" tabindex="0">
             <div class="flashcard-meta">
               <span id="card-number" class="pill">Karte 0</span>
+              <span id="card-module" class="pill">Modul</span>
               <span id="card-category" class="pill">Kategorie</span>
             </div>
             <div class="flashcard-face flashcard-front">
@@ -157,6 +248,8 @@
       </main>
     </div>
 
+    <script src="./data.js"></script>
+    <script src="./project-data.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

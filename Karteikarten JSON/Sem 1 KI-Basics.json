@@ -1,0 +1,852 @@
+{
+  "semesterId": "sem1",
+  "semesterLabel": "1. Semester",
+  "semesterTitle": "Erstes Semester",
+  "semesterStatus": "completed",
+  "module": {
+    "id": "ki-basics",
+    "title": "KI Basics",
+    "shortTitle": "KI Basics",
+    "status": "imported",
+    "topics": [
+      {
+        "id": "ai-engineering",
+        "title": "AI Engineering",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-ai-engineering-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was versteht man unter AI Engineering?",
+            "back": "AI Engineering ist ein systematischer Ansatz zur Entwicklung, Implementierung und Wartung produktionsreifer KI-Systeme. Es verbindet klassische Softwareentwicklung mit KI-spezifischen Anforderungen."
+          },
+          {
+            "id": "sem1-ki-basics-ai-engineering-002",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche drei Säulen gehören zum AI Engineering?",
+            "back": [
+              "DataOps: Verwaltung von Datenflüssen und Datenqualität",
+              "ModelOps: Management des KI-Modell-Lebenszyklus",
+              "DevOps: Infrastruktur, Automatisierung und Betrieb"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-ai-engineering-003",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Vorteile bietet AI Engineering?",
+            "back": [
+              "kürzere Zeit bis zur Wertschöpfung",
+              "höhere Zuverlässigkeit",
+              "bessere Wartbarkeit",
+              "einfachere Skalierung von KI-Systemen",
+              "Wiederverwendbarkeit von Komponenten"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-ai-engineering-004",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Warum scheitern viele KI-Projekte ohne AI Engineering in der Praxis?",
+            "back": "Viele KI-Projekte scheitern nicht am Modell selbst, sondern an schlechter Datenqualität, fehlender Skalierbarkeit, mangelnder Überwachung, unklaren Verantwortlichkeiten oder fehlender Integration in produktive IT-Systeme."
+          }
+        ]
+      },
+      {
+        "id": "synthetische-daten-composite-ai-smart-robots",
+        "title": "Synthetische Daten, Composite AI und Smart Robots",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-synth-comp-robot-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was sind synthetische Daten?",
+            "back": "Synthetische Daten sind künstlich erzeugte Daten, die Eigenschaften realer Daten nachahmen, aber keine echten personenbezogenen oder sensiblen Informationen enthalten müssen."
+          },
+          {
+            "id": "sem1-ki-basics-synth-comp-robot-002",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Methoden gibt es zur Erzeugung synthetischer Daten?",
+            "back": [
+              "manuelle Erstellung",
+              "regelbasierte Modelle",
+              "statistische Verfahren",
+              "KI-Verfahren wie GANs oder Variational Autoencoder",
+              "Simulationen"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-synth-comp-robot-003",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet Composite AI?",
+            "back": "Composite AI bezeichnet die Kombination mehrerer KI-Technologien und Methoden zu einem leistungsfähigeren Gesamtsystem, zum Beispiel Machine Learning, NLP, Computer Vision, Wissensgraphen und regelbasierte Systeme."
+          },
+          {
+            "id": "sem1-ki-basics-synth-comp-robot-004",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was sind Smart Robots?",
+            "back": "Smart Robots sind KI-basierte Systeme, die ihre Umgebung wahrnehmen, aus Erfahrungen lernen und selbstständig handeln können."
+          },
+          {
+            "id": "sem1-ki-basics-synth-comp-robot-005",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Kernfähigkeiten besitzen Smart Robots?",
+            "back": [
+              "Umgebungswahrnehmung durch Sensoren",
+              "Handlungsausführung durch Aktuatoren",
+              "autonome Bewegung",
+              "Lernfähigkeit",
+              "Anpassungsfähigkeit an veränderte Bedingungen"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dateninfrastruktur-big-data",
+        "title": "Dateninfrastruktur und Big Data",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-big-data-001",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Ziele verfolgen analytische Prozesse in Unternehmen?",
+            "back": [
+              "neue Erkenntnisse gewinnen",
+              "Kosten senken",
+              "schnellere Entscheidungen ermöglichen",
+              "neue Märkte erschließen"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-big-data-002",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Anforderungen sollte eine Datenplattform für KI-Anwendungen erfüllen?",
+            "back": [
+              "Robustheit",
+              "physische und logische Sicherheit",
+              "Einhaltung von Datenschutzrichtlinien",
+              "angemessene Performance",
+              "hohe Verfügbarkeit",
+              "Unterstützung von KI, ML und Deep Learning"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-big-data-003",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Was sind die 4 V's von Big Data?",
+            "back": [
+              "Volume: große Datenmengen",
+              "Velocity: hohe Geschwindigkeit der Datenerfassung und Verarbeitung",
+              "Variety: Vielfalt von Datenformaten und Datenquellen",
+              "Veracity: Zuverlässigkeit und Qualität der Daten"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-big-data-004",
+            "type": "example",
+            "examRelevance": "medium",
+            "front": "Warum sind IoT-Sensordaten ein typisches Big-Data-Beispiel?",
+            "back": "IoT-Sensordaten entstehen kontinuierlich, oft in großer Menge, mit hoher Geschwindigkeit und in verschiedenen Formaten. Dadurch erfüllen sie typische Big-Data-Merkmale wie Volume, Velocity und Variety."
+          }
+        ]
+      },
+      {
+        "id": "business-intelligence-architekturen-cloud",
+        "title": "Business Intelligence, Big-Data-Architekturen und Cloud",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-bi-cloud-001",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Wie unterscheidet sich traditionelle BI von KI-erweiterter BI?",
+            "back": "Traditionelle BI fokussiert Berichte, Dashboards und historische Analysen. KI-erweiterte BI ergänzt Vorhersagen, Mustererkennung, Automatisierung und Anomalieerkennung."
+          },
+          {
+            "id": "sem1-ki-basics-bi-cloud-002",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Hauptkomponenten besitzt eine Big-Data-Architektur?",
+            "back": [
+              "Datenquellen",
+              "Datenspeicherung",
+              "Datenverarbeitung",
+              "Analysedatenspeicher",
+              "Orchestrierung",
+              "Analyse, Visualisierung und KI-Anwendung"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-bi-cloud-003",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist die Lambda-Architektur?",
+            "back": "Die Lambda-Architektur kombiniert Batchverarbeitung und Echtzeitverarbeitung. Sie besteht aus Batch Layer, Speed Layer und Serving Layer."
+          },
+          {
+            "id": "sem1-ki-basics-bi-cloud-004",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist die Kappa-Architektur?",
+            "back": "Die Kappa-Architektur behandelt alle Daten als Streams und verzichtet auf eine getrennte Batch- und Speed-Schicht."
+          },
+          {
+            "id": "sem1-ki-basics-bi-cloud-005",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Cloud-Service-Modelle gibt es?",
+            "back": [
+              "IaaS: Infrastructure as a Service, virtuelle Rechenressourcen",
+              "PaaS: Platform as a Service, Entwicklungs- und Ausführungsplattform",
+              "SaaS: Software as a Service, fertige Software über das Internet"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-bi-cloud-006",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Cloud-Bereitstellungsmodelle gibt es?",
+            "back": [
+              "Public Cloud",
+              "Private Cloud",
+              "Hybrid Cloud",
+              "Multi-Cloud"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "datenmanagement-data-engineering",
+        "title": "Datenmanagement und Data Engineering",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-data-eng-001",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Faktoren beeinflussen den Wert von Daten?",
+            "back": [
+              "Exklusivität",
+              "Genauigkeit",
+              "Präzision",
+              "Vollständigkeit",
+              "Umfang",
+              "Aktualität",
+              "Relevanz"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-data-eng-002",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Wie unterscheiden sich relationale Datenbanken und NoSQL-Datenbanken?",
+            "back": "Relationale Datenbanken nutzen Tabellen, feste Schemata, SQL und ACID-Eigenschaften. NoSQL-Datenbanken sind flexibler, häufig horizontal skalierbar und eignen sich besser für große, heterogene oder semi- und unstrukturierte Daten."
+          },
+          {
+            "id": "sem1-ki-basics-data-eng-003",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Typen von NoSQL-Datenbanken gibt es?",
+            "back": [
+              "Key-Value-Datenbanken",
+              "dokumentenorientierte Datenbanken",
+              "spaltenorientierte Datenbanken",
+              "Graph-Datenbanken"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-data-eng-004",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist eine Datenpipeline?",
+            "back": "Eine Datenpipeline ist ein systematischer Workflow zur Verarbeitung von Daten von der Quelle bis zur Nutzung, inklusive Erfassung, Bereinigung, Transformation, Speicherung, Analyse und Visualisierung."
+          },
+          {
+            "id": "sem1-ki-basics-data-eng-005",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen ETL und ELT?",
+            "back": "Bei ETL werden Daten extrahiert, vor dem Laden transformiert und dann in das Zielsystem geladen. Bei ELT werden Daten zunächst roh geladen und erst später nach Bedarf transformiert."
+          },
+          {
+            "id": "sem1-ki-basics-data-eng-006",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen Data Lake und Data Warehouse?",
+            "back": "Ein Data Lake speichert Rohdaten flexibel im nativen Format. Ein Data Warehouse speichert strukturierte, aufbereitete Daten für Analyse, Reporting und Business Intelligence."
+          }
+        ]
+      },
+      {
+        "id": "data-governance-datenqualitaet",
+        "title": "Data Governance und Datenqualität",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-governance-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist Data Governance?",
+            "back": "Data Governance ist ein strategischer Rahmen zur Verwaltung von Daten als Unternehmenswert. Ziel ist es, Daten verfügbar, nutzbar, integer, sicher und regelkonform zu machen."
+          },
+          {
+            "id": "sem1-ki-basics-governance-002",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Ziele verfolgt Data Governance?",
+            "back": [
+              "Datenverfügbarkeit sichern",
+              "Datenqualität verbessern",
+              "Verantwortlichkeiten klären",
+              "Standards definieren",
+              "Compliance gewährleisten",
+              "Datensilos reduzieren"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-governance-003",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist ein Datenkatalog?",
+            "back": "Ein Datenkatalog dokumentiert und verwaltet Metadaten wie Datenquellen, Datenherkunft, fachliche und technische Definitionen, Eigentümer, Zugriffsrechte, Aktualität und Compliance-Informationen."
+          },
+          {
+            "id": "sem1-ki-basics-governance-004",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche vier Kategorien von Datenqualität gibt es?",
+            "back": [
+              "intrinsische Qualität",
+              "kontextbezogene Qualität",
+              "darstellungsbezogene Qualität",
+              "zugriffsbezogene Qualität"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-governance-005",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen MCAR, MAR und MNAR?",
+            "back": "MCAR bedeutet, dass Daten völlig zufällig fehlen. MAR bedeutet, dass fehlende Werte von beobachteten Variablen abhängen. MNAR bedeutet, dass das Fehlen vom fehlenden Wert selbst abhängt."
+          },
+          {
+            "id": "sem1-ki-basics-governance-006",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Rollen gibt es in der Data Governance?",
+            "back": [
+              "Executive Sponsor",
+              "Data-Governance-Komitee",
+              "Data Stewards",
+              "Dateneigentümer",
+              "Datenverwalter"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "datenvisualisierung",
+        "title": "Datenvisualisierung",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-visualisierung-001",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Welche drei Arten der Datenvisualisierung gibt es?",
+            "back": "Explorative Visualisierung dient dem Entdecken von Mustern, konfirmatorische Visualisierung dem Prüfen von Hypothesen und präsentative Visualisierung der Kommunikation von Erkenntnissen."
+          },
+          {
+            "id": "sem1-ki-basics-visualisierung-002",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Best Practices gelten für gute Datenvisualisierungen?",
+            "back": [
+              "klare Datengeschichte erzählen",
+              "Informationsüberflutung vermeiden",
+              "Kernbotschaften fokussieren",
+              "passenden Diagrammtyp wählen",
+              "klare Beschriftungen nutzen",
+              "Kontext zur Interpretation geben"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "agentensysteme-peas",
+        "title": "Agentensysteme und PEAS",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-agenten-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein Agent in der KI?",
+            "back": "Ein Agent ist ein System, das Informationen verarbeitet, seine Umgebung über Sensoren wahrnimmt und über Aktuatoren Handlungen ausführt."
+          },
+          {
+            "id": "sem1-ki-basics-agenten-002",
+            "type": "comparison",
+            "examRelevance": "medium",
+            "front": "Was ist der Unterschied zwischen Agentenfunktion und Agentenprogramm?",
+            "back": "Die Agentenfunktion beschreibt das Verhalten mathematisch. Das Agentenprogramm ist die konkrete Implementierung dieser Funktion."
+          },
+          {
+            "id": "sem1-ki-basics-agenten-003",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Eigenschaften können Agentenumgebungen besitzen?",
+            "back": [
+              "vollständig oder teilweise beobachtbar",
+              "Einzelagent- oder Multi-Agenten-System",
+              "deterministisch oder stochastisch",
+              "episodisch oder sequenziell",
+              "statisch oder dynamisch",
+              "diskret oder stetig",
+              "bekannt oder unbekannt"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-agenten-004",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein rationaler Agent?",
+            "back": "Ein rationaler Agent wählt für jede Wahrnehmungsfolge die Aktion aus, die seine Leistungsbewertung maximiert. Rationalität hängt von Ziel, Vorwissen, verfügbaren Aktionen und Wahrnehmungen ab."
+          },
+          {
+            "id": "sem1-ki-basics-agenten-005",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Wofür steht PEAS?",
+            "back": [
+              "Performance: Leistungsbewertung",
+              "Environment: Umgebung",
+              "Actuators: Aktuatoren",
+              "Sensors: Sensoren"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-agenten-006",
+            "type": "example",
+            "examRelevance": "high",
+            "front": "Wie sieht PEAS für einen Taxifahrer-Agenten aus?",
+            "back": [
+              "Performance: Sicherheit, Schnelligkeit, Legalität, Komfort, Gewinn",
+              "Environment: Straßen, Verkehr, Wetter, Passagiere",
+              "Actuators: Lenkung, Beschleunigung, Bremsen, Signal",
+              "Sensors: Kamera, GPS, Geschwindigkeitsmesser, Mikrofon"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "agententypen",
+        "title": "Agententypen",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-agententypen-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein zielbasierter Agent?",
+            "back": "Ein zielbasierter Agent kombiniert ein Zustandsmodell mit Zielinformationen und wählt Aktionen danach aus, ob sie zur Zielerreichung beitragen."
+          },
+          {
+            "id": "sem1-ki-basics-agententypen-002",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein nutzenbasierter Agent?",
+            "back": "Ein nutzenbasierter Agent maximiert eine Nutzenfunktion und wählt die Option mit dem höchsten erwarteten Nutzen aus."
+          },
+          {
+            "id": "sem1-ki-basics-agententypen-003",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein lernender Agent?",
+            "back": "Ein lernender Agent verbessert seine Leistung durch Feedback und besteht typischerweise aus Leistungselement, Lernelement, Kritik und Problemgenerator."
+          },
+          {
+            "id": "sem1-ki-basics-agententypen-004",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Beispiele gibt es für zielbasierte Agenten?",
+            "back": [
+              "GPS-Navigationssysteme",
+              "autonome Fahrzeuge",
+              "Warehouse-Roboter",
+              "NPCs in Spielen",
+              "Fitness-Apps"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "logik-wissensrepraesentation",
+        "title": "Logik und Wissensrepräsentation",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-logik-001",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen Syntax und Semantik in logischen Systemen?",
+            "back": "Syntax beschreibt die formale Struktur der Symbole. Semantik beschreibt die Bedeutung der Symbole."
+          },
+          {
+            "id": "sem1-ki-basics-logik-002",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen Deduktion, Induktion und Abduktion?",
+            "back": "Deduktion schließt aus gesichertem Wissen auf eine sichere Folgerung. Induktion verallgemeinert aus Beobachtungen. Abduktion schließt auf die wahrscheinlichste Ursache."
+          },
+          {
+            "id": "sem1-ki-basics-logik-003",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche logischen Operatoren gehören zur Aussagenlogik?",
+            "back": [
+              "Negation: ¬",
+              "Konjunktion: ∧",
+              "Disjunktion: ∨",
+              "Implikation: →",
+              "Äquivalenz: ↔"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-logik-004",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was bedeutet Erfüllbarkeit in der Aussagenlogik?",
+            "back": "Eine Formel ist erfüllbar, wenn mindestens eine Belegung existiert, die diese Formel wahr macht."
+          },
+          {
+            "id": "sem1-ki-basics-logik-005",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist eine Tautologie?",
+            "back": "Eine Tautologie ist eine Formel, die unter allen möglichen Belegungen wahr ist."
+          },
+          {
+            "id": "sem1-ki-basics-logik-006",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Wie erweitert die Prädikatenlogik die Aussagenlogik?",
+            "back": "Die Prädikatenlogik erweitert die Aussagenlogik um Objekte, Eigenschaften, Relationen und Quantoren wie ∀ für alle und ∃ es gibt."
+          }
+        ]
+      },
+      {
+        "id": "wissensbasierte-regelbasierte-systeme",
+        "title": "Wissensbasierte und regelbasierte Systeme",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-wissen-001",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Aus welchen Komponenten besteht ein wissensbasiertes System?",
+            "back": [
+              "Wissensbasis",
+              "Inferenzmechanismus",
+              "Benutzerschnittstelle",
+              "Erklärungskomponente"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-wissen-002",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist Wissensengineering?",
+            "back": "Wissensengineering bedeutet, Expertenwissen zu erfassen, zu formalisieren und in ein System zu übertragen."
+          },
+          {
+            "id": "sem1-ki-basics-wissen-003",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Wie sind Regeln in regelbasierten Systemen aufgebaut?",
+            "back": "Regeln folgen dem Muster: WENN Bedingung, DANN Aktion. Sie bestehen aus Prämisse und Konklusion."
+          },
+          {
+            "id": "sem1-ki-basics-wissen-004",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen Forward Chaining und Backward Chaining?",
+            "back": "Forward Chaining ist datengetrieben und startet mit vorhandenen Fakten. Backward Chaining ist zielgetrieben und startet mit einem gewünschten Ergebnis."
+          },
+          {
+            "id": "sem1-ki-basics-wissen-005",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Probleme können bei der Konfliktresolution in regelbasierten Systemen auftreten?",
+            "back": [
+              "mehrere Regeln sind gleichzeitig anwendbar",
+              "Regeln widersprechen sich",
+              "Endlosschleifen können entstehen"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "machine-learning-grundlagen",
+        "title": "Maschinelles Lernen: Grundlagen",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-ml-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist maschinelles Lernen?",
+            "back": "Maschinelles Lernen ist ein Teilbereich der Künstlichen Intelligenz, bei dem Systeme aus Daten lernen, anstatt explizit programmiert zu werden."
+          },
+          {
+            "id": "sem1-ki-basics-ml-002",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Wie ist das Verhältnis zwischen KI, Machine Learning und Deep Learning?",
+            "back": "Künstliche Intelligenz ist das übergeordnete Feld. Machine Learning ist ein Teilbereich der KI. Deep Learning ist ein Teilbereich des Machine Learning, der neuronale Netze nutzt."
+          },
+          {
+            "id": "sem1-ki-basics-ml-003",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Disziplinen verbindet maschinelles Lernen?",
+            "back": [
+              "Informatik",
+              "Mathematik",
+              "Statistik",
+              "Biologie"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-ml-004",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet Generalisierung im Machine Learning?",
+            "back": "Generalisierung bezeichnet die Fähigkeit eines Modells, auf neue, unbekannte Daten korrekt zu reagieren."
+          }
+        ]
+      },
+      {
+        "id": "lerntypen-machine-learning",
+        "title": "Lerntypen im Machine Learning",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-lerntypen-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist überwachtes Lernen?",
+            "back": "Überwachtes Lernen arbeitet mit gelabelten Trainingsdaten, also bekannten Eingabe-Ausgabe-Paaren. Ziel ist die Generalisierung auf neue Daten."
+          },
+          {
+            "id": "sem1-ki-basics-lerntypen-002",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen Klassifikation und Regression?",
+            "back": "Klassifikation sagt diskrete Kategorien vorher, zum Beispiel Spam oder Nicht-Spam. Regression sagt kontinuierliche numerische Werte vorher, zum Beispiel einen Hauspreis."
+          },
+          {
+            "id": "sem1-ki-basics-lerntypen-003",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist unüberwachtes Lernen?",
+            "back": "Unüberwachtes Lernen arbeitet ohne Labels und sucht selbstständig nach Mustern, Gruppen oder Zusammenhängen in Daten."
+          },
+          {
+            "id": "sem1-ki-basics-lerntypen-004",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist Reinforcement Learning?",
+            "back": "Reinforcement Learning ist Lernen durch Belohnung und Bestrafung. Ein Agent handelt in einer Umgebung und versucht, seinen langfristigen Nutzen zu maximieren."
+          },
+          {
+            "id": "sem1-ki-basics-lerntypen-005",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist Reward Hacking?",
+            "back": "Reward Hacking bedeutet, dass ein System die Belohnungsfunktion auf unerwünschte Weise optimiert, ohne das eigentlich beabsichtigte Ziel sinnvoll zu erfüllen."
+          },
+          {
+            "id": "sem1-ki-basics-lerntypen-006",
+            "type": "classification",
+            "examRelevance": "high",
+            "front": "Ordne die Aufgaben zu: Spamfilter, Kundensegmentierung, Fahrstuhlsteuerung.",
+            "back": [
+              "Spamfilter: überwachtes Lernen / Klassifikation",
+              "Kundensegmentierung: unüberwachtes Lernen / Clustering",
+              "Fahrstuhlsteuerung: Reinforcement Learning"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "entscheidungsbaeume-clustering-assoziation",
+        "title": "Entscheidungsbäume, Clustering und Assoziationsanalyse",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-verfahren-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein Entscheidungsbaum?",
+            "back": "Ein Entscheidungsbaum ist eine hierarchische Entscheidungsstruktur zur Klassifikation. Er wählt schrittweise Attribute aus, um Daten möglichst gut aufzuteilen."
+          },
+          {
+            "id": "sem1-ki-basics-verfahren-002",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was misst Entropie bei Entscheidungsbäumen?",
+            "back": "Entropie misst die Unsicherheit oder Unreinheit einer Datenmenge. Je höher die Entropie, desto gemischter sind die Klassen."
+          },
+          {
+            "id": "sem1-ki-basics-verfahren-003",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist Information Gain?",
+            "back": "Information Gain misst, wie stark ein Attribut die Unsicherheit reduziert. Das Attribut mit hohem Informationsgewinn eignet sich gut für einen Split."
+          },
+          {
+            "id": "sem1-ki-basics-verfahren-004",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Schritte gehören zum k-Means-Algorithmus?",
+            "back": [
+              "Anzahl der Cluster K festlegen",
+              "Clusterzentren zufällig initialisieren",
+              "Datenpunkte dem nächstgelegenen Zentrum zuordnen",
+              "Zentren als Mittelwert neu berechnen",
+              "bis zur Konvergenz wiederholen"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-verfahren-005",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist Assoziationsanalyse?",
+            "back": "Assoziationsanalyse entdeckt Zusammenhänge zwischen Datenelementen, zum Beispiel in Warenkörben."
+          },
+          {
+            "id": "sem1-ki-basics-verfahren-006",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche drei zentralen Metriken gibt es in der Assoziationsanalyse?",
+            "back": [
+              "Support: Häufigkeit einer Item-Kombination",
+              "Konfidenz: bedingte Wahrscheinlichkeit einer Regel",
+              "Lift: Stärke einer Assoziation gegenüber Zufall oder Durchschnitt"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "neuronale-netze-deep-learning",
+        "title": "Neuronale Netze und Deep Learning",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-neural-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein künstliches neuronales Netz?",
+            "back": "Ein künstliches neuronales Netz ist ein ML-Modell, das von biologischen Neuronen inspiriert ist und aus Eingaben, Gewichtungen, Aktivierungsfunktionen und Ausgaben besteht."
+          },
+          {
+            "id": "sem1-ki-basics-neural-002",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist ein Perzeptron?",
+            "back": "Ein Perzeptron ist eine einfache Form eines neuronalen Netzes mit Eingabe- und Ausgabeschicht. Es kann nur linear trennbare Probleme lösen."
+          },
+          {
+            "id": "sem1-ki-basics-neural-003",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum ist das XOR-Problem für einfache Perzeptronen wichtig?",
+            "back": "Das XOR-Problem zeigt, dass ein einzelnes Perzeptron keine nicht-linear trennbaren Probleme lösen kann. Dafür werden komplexere Netzstrukturen benötigt."
+          },
+          {
+            "id": "sem1-ki-basics-neural-004",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Aktivierungsfunktionen wurden behandelt?",
+            "back": [
+              "Sigmoidfunktion",
+              "ReLU: f(x) = max(0, x)",
+              "Schwellwertfunktion"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-neural-005",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein Convolutional Neural Network?",
+            "back": "Ein CNN ist ein neuronales Netz, das besonders für Bildverarbeitung geeignet ist und unter anderem Convolutional Layers, Filter beziehungsweise Kernel und Pooling Layers nutzt."
+          },
+          {
+            "id": "sem1-ki-basics-neural-006",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Anwendungen haben CNNs?",
+            "back": [
+              "Objekterkennung",
+              "Bildklassifikation",
+              "semantische Segmentierung",
+              "medizinische Bildanalyse",
+              "Gesichtserkennung",
+              "autonome Fahrzeuge"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "modellbewertung-ml-praxis",
+        "title": "Modellbewertung und praktische ML-Herausforderungen",
+        "cards": [
+          {
+            "id": "sem1-ki-basics-modellbewertung-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein Modell im Machine Learning?",
+            "back": "Ein Modell ist das Lernergebnis eines ML-Verfahrens, also eine gelernte Funktion, die aus Eingaben Vorhersagen oder Entscheidungen ableitet."
+          },
+          {
+            "id": "sem1-ki-basics-modellbewertung-002",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet Training im Machine Learning?",
+            "back": "Training bedeutet, dass ein Modell anhand eines Datensatzes angepasst wird, damit es Muster oder Zusammenhänge lernt."
+          },
+          {
+            "id": "sem1-ki-basics-modellbewertung-003",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist Overfitting?",
+            "back": "Overfitting bedeutet, dass ein Modell zu stark an die Trainingsdaten angepasst ist und deshalb auf neuen, unbekannten Daten schlechter funktioniert."
+          },
+          {
+            "id": "sem1-ki-basics-modellbewertung-004",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche praktischen Herausforderungen gibt es bei ML-Projekten?",
+            "back": [
+              "Datenqualität sicherstellen",
+              "Daten bereinigen",
+              "Feature Engineering durchführen",
+              "Features auswählen",
+              "Hyperparameter optimieren",
+              "unbalancierte Datensätze behandeln"
+            ]
+          },
+          {
+            "id": "sem1-ki-basics-modellbewertung-005",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche typischen Problemtypen gibt es im Machine Learning?",
+            "back": [
+              "binäre Klassifikation",
+              "Multi-Class-Klassifikation",
+              "Regression",
+              "Clustering",
+              "Reinforcement-Learning-Probleme"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

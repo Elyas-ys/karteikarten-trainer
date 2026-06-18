@@ -1,0 +1,2962 @@
+{
+  "semesterId": "sem2",
+  "semesterLabel": "2. Semester",
+  "semesterTitle": "Zweites Semester",
+  "semesterStatus": "imported",
+  "module": {
+    "id": "quantitative-methoden-informatik",
+    "title": "Quantitative Methoden der Informatik / Quantitative Datenanalyse",
+    "shortTitle": "Quantitative Methoden",
+    "status": "imported",
+    "topics": [
+      {
+        "id": "modulueberblick",
+        "title": "Modulüberblick",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-modulueberblick-001",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche zentrale Kompetenzkette beschreibt das Modul Quantitative Methoden?",
+            "back": [
+              "Daten kritisch verstehen",
+              "Variablen und Skalenniveaus korrekt einordnen",
+              "Daten explorativ analysieren",
+              "Wahrscheinlichkeiten und Verteilungen interpretieren",
+              "Zusammenhänge mit Regression modellieren",
+              "Unsicherheit durch Inferenz bewerten",
+              "Ergebnisse sauber und begrenzt interpretieren"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-modulueberblick-002",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet der rote Faden des Moduls?",
+            "back": "Von Datenbeschreibung zur begründeten Aussage über eine Population."
+          },
+          {
+            "id": "sem2-quantitative-methoden-modulueberblick-003",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Themen kommen im späteren Verlauf des Moduls hinzu?",
+            "back": [
+              "Explorative Datenanalyse",
+              "Normalverteilung",
+              "Regression",
+              "Bootstrapping",
+              "Permutationstests",
+              "Hypothesentests",
+              "Fallstudien"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-literacy-und-forschungsprozess",
+        "title": "Data Literacy und Forschungsprozess",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-data-literacy-und-forschungsprozess-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet Data Literacy?",
+            "back": "Data Literacy bedeutet, Daten nicht nur zu sammeln, sondern sie sinnvoll, kritisch und verantwortungsvoll zu nutzen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-data-literacy-und-forschungsprozess-002",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche vier zentralen Fragen gehören zu Data Literacy?",
+            "back": [
+              "Was wollen wir machen?",
+              "Was können wir machen?",
+              "Was dürfen wir machen?",
+              "Was sollen wir machen?"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-data-literacy-und-forschungsprozess-003",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum ist Datenanalyse nicht nur Rechnen?",
+            "back": "Datenanalyse umfasst auch Interpretation, Kontextbewertung und methodische Begrenzung."
+          },
+          {
+            "id": "sem2-quantitative-methoden-data-literacy-und-forschungsprozess-004",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Wofür steht der PPDAC-Zyklus?",
+            "back": [
+              "Problem: Forschungsfrage definieren",
+              "Plan: Datenerhebung und Variablen planen",
+              "Data: Daten erheben oder einlesen",
+              "Analysis: Daten explorativ analysieren und modellieren",
+              "Conclusion: Schlussfolgerung, Limitationen und neue Fragen"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-data-literacy-und-forschungsprozess-005",
+            "type": "reasoning",
+            "examRelevance": "medium",
+            "front": "Warum endet der PPDAC-Zyklus nicht endgültig mit der Conclusion?",
+            "back": "Nach der Conclusion entstehen oft neue Probleme oder Forschungsfragen."
+          }
+        ]
+      },
+      {
+        "id": "guetekriterien-wissenschaftlicher-arbeit",
+        "title": "Gütekriterien wissenschaftlicher Arbeit",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-guetekriterien-wissenschaftlicher-arbeit-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet Objektivität?",
+            "back": "Objektivität bedeutet, dass das Ergebnis unabhängig von der Person sein soll, die misst oder analysiert."
+          },
+          {
+            "id": "sem2-quantitative-methoden-guetekriterien-wissenschaftlicher-arbeit-002",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet Reliabilität?",
+            "back": "Reliabilität bedeutet Zuverlässigkeit beziehungsweise Reproduzierbarkeit einer Messung."
+          },
+          {
+            "id": "sem2-quantitative-methoden-guetekriterien-wissenschaftlicher-arbeit-003",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Woran erkennt man hohe Reliabilität?",
+            "back": [
+              "Wiederholte Messungen liefern ähnliche Ergebnisse.",
+              "Es gibt wenig zufälliges Rauschen.",
+              "Die Messung ist stabil."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-guetekriterien-wissenschaftlicher-arbeit-004",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet Validität?",
+            "back": "Validität bedeutet, dass wirklich das gemessen wird, was gemessen werden soll."
+          },
+          {
+            "id": "sem2-quantitative-methoden-guetekriterien-wissenschaftlicher-arbeit-005",
+            "type": "reasoning",
+            "examRelevance": "high",
+            "front": "Warum ist die Anzahl der Bücher im Regal kein valides Maß für Wissen?",
+            "back": "Die Anzahl der Bücher ist leicht zählbar und reliabel, misst aber nicht wirklich Wissen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-guetekriterien-wissenschaftlicher-arbeit-006",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was fragt die interne Validität?",
+            "back": "Die interne Validität fragt, ob der gemessene Effekt wirklich auf die untersuchte Ursache zurückzuführen ist."
+          },
+          {
+            "id": "sem2-quantitative-methoden-guetekriterien-wissenschaftlicher-arbeit-007",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was fragt die externe Validität?",
+            "back": "Die externe Validität fragt, ob sich Ergebnisse auf andere Personen, Populationen oder Situationen übertragen lassen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-guetekriterien-wissenschaftlicher-arbeit-008",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen interner und externer Validität?",
+            "back": [
+              "Interne Validität betrifft die Frage, ob ein Effekt innerhalb der Studie korrekt auf die Ursache zurückgeführt werden kann.",
+              "Externe Validität betrifft die Frage, ob Ergebnisse auf andere Personen, Populationen oder Situationen übertragbar sind."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "variablen-messung-und-skalenniveaus",
+        "title": "Variablen, Messung und Skalenniveaus",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-001",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen manifesten und latenten Variablen?",
+            "back": [
+              "Manifeste Variablen sind direkt messbar, zum Beispiel Körpergröße, Umsatz oder Alter.",
+              "Latente Variablen sind nicht direkt messbar und müssen operationalisiert werden, zum Beispiel Intelligenz, Motivation oder Interesse."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-002",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie werden latente Variablen häufig gemessen?",
+            "back": "Latente Variablen werden oft über Fragebogenitems, Skalen oder Indikatoren gemessen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-003",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Warum ist das Skalenniveau wichtig?",
+            "back": "Das Skalenniveau entscheidet, welche Analysen und Rechenoperationen sinnvoll sind."
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-004",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist eine Nominalskala?",
+            "back": "Eine Nominalskala enthält Kategorien ohne natürliche Rangfolge."
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-005",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Nenne Beispiele für nominalskalierte Variablen.",
+            "back": [
+              "Geschlecht",
+              "Automarke",
+              "Postleitzahl",
+              "Telefonnummer",
+              "Filmgenre"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-006",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Operationen sind bei nominalskalierten Variablen sinnvoll?",
+            "back": [
+              "Zählen",
+              "Häufigkeiten bestimmen",
+              "Anteile bestimmen",
+              "Säulendiagramme verwenden",
+              "Mosaikplots verwenden"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-007",
+            "type": "assertion",
+            "examRelevance": "high",
+            "front": "Bei nominalskalierten Variablen sind Mittelwert, Median und Rechnen mit Abständen sinnvoll.",
+            "back": "Falsch. Bei nominalskalierten Variablen sind Mittelwert, Median und Rechnen mit Abständen nicht sinnvoll."
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-008",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist eine Ordinalskala?",
+            "back": "Eine Ordinalskala enthält Kategorien mit natürlicher Rangfolge, aber ohne interpretierbare Abstände."
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-009",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Nenne Beispiele für ordinalskalierte Variablen.",
+            "back": [
+              "Schulnoten",
+              "Platzierungen",
+              "Bildungsabschluss",
+              "Hotelsterne",
+              "Zustimmungsskalen"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-010",
+            "type": "reasoning",
+            "examRelevance": "high",
+            "front": "Warum sind Abstände bei ordinalskalierten Variablen problematisch?",
+            "back": "Die Kategorien besitzen zwar eine Reihenfolge, aber die Abstände zwischen ihnen sind nicht interpretierbar."
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-011",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist eine Intervallskala?",
+            "back": "Eine Intervallskala hat interpretierbare Abstände, aber keinen natürlichen Nullpunkt."
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-012",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Nenne Beispiele für intervallskalierte Variablen.",
+            "back": [
+              "Temperatur in Celsius",
+              "Kalenderjahre"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-013",
+            "type": "assertion",
+            "examRelevance": "high",
+            "front": "20 Grad Celsius ist doppelt so warm wie 10 Grad Celsius.",
+            "back": "Falsch. Celsius hat keinen natürlichen Nullpunkt, daher sind solche Verhältnis-Aussagen nicht sinnvoll."
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-014",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist eine Verhältnisskala beziehungsweise Ratioskala?",
+            "back": "Eine Verhältnisskala hat interpretierbare Abstände und einen natürlichen Nullpunkt."
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-015",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Nenne Beispiele für verhältnisskalierte Variablen.",
+            "back": [
+              "Körpergröße",
+              "Gewicht",
+              "Alter",
+              "Einkommen",
+              "Anzahl Kinder",
+              "Nutzungsdauer"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-variablen-messung-und-skalenniveaus-016",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen diskreten und stetigen Variablen?",
+            "back": [
+              "Diskrete Variablen haben abzählbare Werte, zum Beispiel Anzahl Kinder oder Anzahl Nutzer.",
+              "Stetige Variablen können theoretisch beliebig viele Zwischenwerte annehmen, zum Beispiel Gewicht, Zeit oder Körpergröße."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "datenstruktur-population-und-stichprobe",
+        "title": "Datenstruktur, Population und Stichprobe",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-datenstruktur-population-und-stichprobe-001",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Was bedeuten Zeile, Spalte und Zelle in einem Data Frame?",
+            "back": [
+              "Zeile: Beobachtung, Fall oder Untersuchungseinheit",
+              "Spalte: Variable",
+              "Zelle: konkreter Beobachtungswert"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-datenstruktur-population-und-stichprobe-002",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist eine Population?",
+            "back": "Die Population ist die Grundgesamtheit, über die man Aussagen treffen will."
+          },
+          {
+            "id": "sem2-quantitative-methoden-datenstruktur-population-und-stichprobe-003",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist eine Stichprobe?",
+            "back": "Eine Stichprobe ist der beobachtete Ausschnitt aus der Population."
+          },
+          {
+            "id": "sem2-quantitative-methoden-datenstruktur-population-und-stichprobe-004",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche Symbole stehen für Mittelwert, Standardabweichung und Anteil in Population und Stichprobe?",
+            "back": [
+              "Mittelwert: Population μ, Stichprobe x̄",
+              "Standardabweichung: Population σ, Stichprobe s",
+              "Anteil: Population π, Stichprobe p̂ oder p"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-datenstruktur-population-und-stichprobe-005",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie werden Populationen und Stichproben symbolisch typischerweise unterschieden?",
+            "back": "Populationen werden meist mit griechischen Buchstaben beschrieben, Stichproben mit lateinischen Symbolen."
+          }
+        ]
+      },
+      {
+        "id": "stichproben-und-studiendesigns",
+        "title": "Stichproben und Studiendesigns",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-stichproben-und-studiendesigns-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist eine Zufallsstichprobe?",
+            "back": "Bei einer Zufallsstichprobe hat jedes Element der Population eine bekannte beziehungsweise gleiche Chance, gezogen zu werden."
+          },
+          {
+            "id": "sem2-quantitative-methoden-stichproben-und-studiendesigns-002",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Vorteile hat eine Zufallsstichprobe?",
+            "back": [
+              "Sie ermöglicht Generalisierung auf die Population.",
+              "Sie unterstützt hohe externe Validität bei sauberem Design."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-stichproben-und-studiendesigns-003",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist eine Gelegenheitsstichprobe?",
+            "back": "Bei einer Gelegenheitsstichprobe nimmt man die Personen, die gerade verfügbar sind."
+          },
+          {
+            "id": "sem2-quantitative-methoden-stichproben-und-studiendesigns-004",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Nenne Beispiele für Gelegenheitsstichproben.",
+            "back": [
+              "Umfrage im eigenen Kurs",
+              "Befragung vor einem Reformhaus",
+              "FOM-Studierende als Stichprobe für die Bevölkerung"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-stichproben-und-studiendesigns-005",
+            "type": "reasoning",
+            "examRelevance": "high",
+            "front": "Warum sind Gelegenheitsstichproben problematisch?",
+            "back": "Sie können Sampling Bias erzeugen und die Generalisierbarkeit einschränken."
+          },
+          {
+            "id": "sem2-quantitative-methoden-stichproben-und-studiendesigns-006",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist eine Beobachtungsstudie?",
+            "back": "Bei einer Beobachtungsstudie werden Daten nur erhoben; es wird nicht aktiv eingegriffen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-stichproben-und-studiendesigns-007",
+            "type": "reasoning",
+            "examRelevance": "high",
+            "front": "Warum erlaubt eine Beobachtungsstudie nicht automatisch Kausalaussagen?",
+            "back": "Weil Korrelation nicht Kausalität ist und Drittvariablen beziehungsweise Confounder die Ergebnisse erklären können."
+          },
+          {
+            "id": "sem2-quantitative-methoden-stichproben-und-studiendesigns-008",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein Experiment?",
+            "back": "Bei einem Experiment wird aktiv eingegriffen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-stichproben-und-studiendesigns-009",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Merkmale hat ein Experiment?",
+            "back": [
+              "Manipulation einer unabhängigen Variable",
+              "Randomisierung der Gruppen",
+              "Bessere Kontrolle von Störvariablen"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-stichproben-und-studiendesigns-010",
+            "type": "reasoning",
+            "examRelevance": "high",
+            "front": "Warum ermöglicht ein Experiment eher Kausalaussagen?",
+            "back": "Durch Manipulation, Randomisierung und bessere Kontrolle von Störvariablen kann ein Effekt eher auf die untersuchte Ursache zurückgeführt werden."
+          }
+        ]
+      },
+      {
+        "id": "explorative-datenanalyse",
+        "title": "Explorative Datenanalyse",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-explorative-datenanalyse-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet explorative Datenanalyse?",
+            "back": "Explorative Datenanalyse bedeutet, Daten kennenzulernen, zu beschreiben, zu visualisieren und auffällige Muster zu erkennen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-explorative-datenanalyse-002",
+            "type": "assertion",
+            "examRelevance": "high",
+            "front": "Explorative Datenanalyse beweist Aussagen über die Population.",
+            "back": "Falsch. EDA ist zunächst deskriptiv und beschreibt die vorhandene Stichprobe."
+          },
+          {
+            "id": "sem2-quantitative-methoden-explorative-datenanalyse-003",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche typischen Fragen stellt man in der explorativen Datenanalyse?",
+            "back": [
+              "Welche Variablen gibt es?",
+              "Welche Skalenniveaus haben sie?",
+              "Gibt es fehlende Werte?",
+              "Wie sind die Werte verteilt?",
+              "Gibt es Ausreißer?",
+              "Gibt es Zusammenhänge?",
+              "Welche Grafiken passen zum Datentyp?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "analyse-kategorialer-daten",
+        "title": "Analyse kategorialer Daten",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-analyse-kategorialer-daten-001",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen absoluter und relativer Häufigkeit?",
+            "back": [
+              "Absolute Häufigkeit: Anzahl der Fälle",
+              "Relative Häufigkeit: Anteil beziehungsweise Prozentwert"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-kategorialer-daten-002",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Welcher R-Befehl erzeugt absolute Häufigkeiten für eine kategoriale Variable?",
+            "back": "tally(~ variable, data = daten)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-kategorialer-daten-003",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Welcher R-Befehl erzeugt relative Häufigkeiten für eine kategoriale Variable?",
+            "back": "tally(~ variable, data = daten, format = \"prop\")"
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-kategorialer-daten-004",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Wofür nutzt man Kreuztabellen?",
+            "back": "Kreuztabellen nutzt man zur Analyse von zwei kategorialen Variablen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-kategorialer-daten-005",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Welche R-Syntax nutzt man für eine Kreuztabelle?",
+            "back": "tally(~ zeile | spalte, data = daten)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-kategorialer-daten-006",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Welche Bedeutung hat die Variable rechts vom senkrechten Strich in tally(~ zeile | spalte)?",
+            "back": "Sie ist häufig die Bedingung beziehungsweise Bezugsgröße und bestimmt, was als 100 Prozent interpretiert wird."
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-kategorialer-daten-007",
+            "type": "assertion",
+            "examRelevance": "high",
+            "front": "P(A|B) ist dasselbe wie P(B|A).",
+            "back": "Falsch. P(A|B) ist nicht dasselbe wie P(B|A), weil die Bezugsgröße unterschiedlich ist."
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-kategorialer-daten-008",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche Visualisierungen passen zu kategorialen Daten?",
+            "back": [
+              "Säulendiagramm für eine kategoriale Variable",
+              "Gruppiertes Säulendiagramm für zwei kategoriale Variablen",
+              "100%-Säulendiagramm für relative Anteile",
+              "Mosaikplot für den Zusammenhang zweier kategorialer Variablen"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-kategorialer-daten-009",
+            "type": "reasoning",
+            "examRelevance": "medium",
+            "front": "Warum werden Kreisdiagramme wissenschaftlich eher vermieden?",
+            "back": "Weil Winkel und Flächen schlecht vergleichbar sind."
+          }
+        ]
+      },
+      {
+        "id": "wahrscheinlichkeitsrechnung",
+        "title": "Wahrscheinlichkeitsrechnung",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-wahrscheinlichkeitsrechnung-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet bedingte Wahrscheinlichkeit?",
+            "back": "Bedingte Wahrscheinlichkeit fragt, wie wahrscheinlich A ist, wenn B bereits eingetreten ist."
+          },
+          {
+            "id": "sem2-quantitative-methoden-wahrscheinlichkeitsrechnung-002",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie schreibt man die Wahrscheinlichkeit von A unter der Bedingung B?",
+            "back": "P(A|B)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-wahrscheinlichkeitsrechnung-003",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist die Confusion of the Inverse?",
+            "back": "Die Confusion of the Inverse ist die Verwechslung von P(A|B) mit P(B|A)."
+          },
+          {
+            "id": "sem2-quantitative-methoden-wahrscheinlichkeitsrechnung-004",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Wann sind zwei Ereignisse unabhängig?",
+            "back": "Zwei Ereignisse sind unabhängig, wenn P(A|B) = P(A) gilt."
+          },
+          {
+            "id": "sem2-quantitative-methoden-wahrscheinlichkeitsrechnung-005",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Was bedeutet Unabhängigkeit intuitiv?",
+            "back": "Das Wissen über B verändert die Wahrscheinlichkeit von A nicht."
+          },
+          {
+            "id": "sem2-quantitative-methoden-wahrscheinlichkeitsrechnung-006",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was berechnet die totale Wahrscheinlichkeit?",
+            "back": "Die totale Wahrscheinlichkeit berechnet eine Gesamtwahrscheinlichkeit aus mehreren Teilwahrscheinlichkeiten."
+          },
+          {
+            "id": "sem2-quantitative-methoden-wahrscheinlichkeitsrechnung-007",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie lautet die Formelidee der totalen Wahrscheinlichkeit am Maschinenbeispiel?",
+            "back": "P(Defekt) = P(Defekt|A)P(A) + P(Defekt|B)P(B) + P(Defekt|C)P(C)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-wahrscheinlichkeitsrechnung-008",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Wozu dient der Satz von Bayes?",
+            "back": "Der Satz von Bayes erlaubt das Umdrehen bedingter Wahrscheinlichkeiten."
+          },
+          {
+            "id": "sem2-quantitative-methoden-wahrscheinlichkeitsrechnung-009",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die Bayes-Formel für P(B|Defekt)?",
+            "back": "P(B|Defekt) = P(Defekt|B) · P(B) / P(Defekt)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-wahrscheinlichkeitsrechnung-010",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wovon hängt Bayes zusätzlich ab?",
+            "back": "Bayes hängt auch von der Grundwahrscheinlichkeit beziehungsweise A-priori-Wahrscheinlichkeit ab."
+          }
+        ]
+      },
+      {
+        "id": "analyse-metrischer-daten",
+        "title": "Analyse metrischer Daten",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-analyse-metrischer-daten-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was zeigt ein Histogramm?",
+            "back": "Ein Histogramm zeigt die Verteilung einer metrischen Variable."
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-metrischer-daten-002",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Eigenschaften hat ein Histogramm?",
+            "back": [
+              "Daten werden in Klassen beziehungsweise Bins eingeteilt.",
+              "Balken berühren sich.",
+              "Es ist geeignet für stetige metrische Daten.",
+              "Die Form hängt von bins beziehungsweise binwidth ab."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-metrischer-daten-003",
+            "type": "reasoning",
+            "examRelevance": "medium",
+            "front": "Was passiert bei zu wenigen Bins im Histogramm?",
+            "back": "Bei zu wenigen Bins gehen Details verloren."
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-metrischer-daten-004",
+            "type": "reasoning",
+            "examRelevance": "medium",
+            "front": "Was passiert bei zu vielen Bins im Histogramm?",
+            "back": "Bei zu vielen Bins wirkt die Grafik unruhig."
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-metrischer-daten-005",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Welche Faustregel kann man für die Anzahl der Bins verwenden?",
+            "back": "ceiling(sqrt(nrow(daten)))"
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-metrischer-daten-006",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie lautet die Freedman-Diaconis-Regel aus dem Lernzettel?",
+            "back": "2 · IQR · n^(-1/3)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-metrischer-daten-007",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Verteilungsformen sollst du unterscheiden können?",
+            "back": [
+              "Symmetrisch",
+              "Rechtsschief",
+              "Linksschief",
+              "Unimodal",
+              "Bimodal",
+              "Multimodal",
+              "Gleichverteilt"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-metrischer-daten-008",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet rechtsschiefe Verteilung?",
+            "back": "Eine rechtsschiefe Verteilung hat einen langen Schwanz nach rechts."
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-metrischer-daten-009",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet bimodale Verteilung?",
+            "back": "Eine bimodale Verteilung hat zwei Gipfel."
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-metrischer-daten-010",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie kann man eine rechtsschiefe Verteilung klausurtauglich beschreiben?",
+            "back": "Die Verteilung ist rechtsschief, weil der Hauptteil der Daten links liegt und der lange Ausläufer nach rechts zeigt."
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-metrischer-daten-011",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was gibt die empirische Verteilungsfunktion an?",
+            "back": "Sie gibt an, welcher Anteil der Beobachtungen kleiner oder gleich einem bestimmten Wert ist."
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-metrischer-daten-012",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die Formel der empirischen Verteilungsfunktion?",
+            "back": "F_n(x) = Anzahl Beobachtungen ≤ x / n"
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-metrischer-daten-013",
+            "type": "comparison",
+            "examRelevance": "medium",
+            "front": "Was ist der Unterschied zwischen pdata und qdata?",
+            "back": [
+              "pdata: Eingabe ist ein Wert x, Ausgabe ist ein Anteil p.",
+              "qdata: Eingabe ist ein Anteil p, Ausgabe ist ein Wert x."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-analyse-metrischer-daten-014",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie berechnet man bei pdata den Anteil größer als x?",
+            "back": "Für größer als x rechnet man 1 - pdata(...), weil pdata immer den linken Bereich ≤ x betrachtet."
+          }
+        ]
+      },
+      {
+        "id": "lage-und-streumasse",
+        "title": "Lage- und Streumaße",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist der Modus?",
+            "back": "Der Modus ist der häufigste Wert."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-002",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Für welche Daten ist der Modus geeignet?",
+            "back": "Der Modus ist geeignet bei kategorialen Daten und diskreten Daten."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-003",
+            "type": "assertion",
+            "examRelevance": "medium",
+            "front": "Der Modus muss tatsächlich in den Daten vorkommen.",
+            "back": "Richtig. Der Modus ist der häufigste beobachtete Wert."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-004",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist der Median?",
+            "back": "Der Median teilt die geordnete Datenreihe in zwei Hälften."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-005",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Eigenschaften hat der Median?",
+            "back": [
+              "50 Prozent der Werte liegen darunter oder gleich.",
+              "50 Prozent der Werte liegen darüber oder gleich.",
+              "Er ist robust gegenüber Ausreißern."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-006",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Warum ist der Median bei schiefen Verteilungen oft geeigneter als der Mittelwert?",
+            "back": "Der Median ist bei schiefen Verteilungen oft geeigneter, weil er weniger durch Extremwerte beeinflusst wird."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-007",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist das arithmetische Mittel?",
+            "back": "Das arithmetische Mittel ist der Durchschnitt."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-008",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie lautet die Formel für das arithmetische Mittel?",
+            "back": "x̄ = 1/n · Σx_i"
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-009",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Eigenschaften hat das arithmetische Mittel?",
+            "back": [
+              "Es nutzt alle Werte.",
+              "Es erlaubt den Rückschluss auf die Gesamtsumme: Mittelwert × Anzahl = Summe.",
+              "Es ist empfindlich gegenüber Ausreißern."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-010",
+            "type": "assertion",
+            "examRelevance": "high",
+            "front": "Bei rechtsschiefen Verteilungen gilt häufig: Mittelwert > Median.",
+            "back": "Richtig. Bei rechtsschiefen Verteilungen ziehen hohe Extremwerte den Mittelwert oft nach oben."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-011",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Was bedeuten Q1, Q2 und Q3?",
+            "back": [
+              "Q1: 25%-Quantil",
+              "Q2: Median beziehungsweise 50%-Quantil",
+              "Q3: 75%-Quantil"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-012",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist die Spannweite?",
+            "back": "Die Spannweite ist Max - Min."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-013",
+            "type": "reasoning",
+            "examRelevance": "medium",
+            "front": "Warum ist die Spannweite problematisch?",
+            "back": "Sie ist sehr empfindlich gegenüber Ausreißern."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-014",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist der Interquartilsabstand?",
+            "back": "Der Interquartilsabstand ist Q3 - Q1."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-015",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Eigenschaften hat der Interquartilsabstand?",
+            "back": [
+              "Er umfasst die mittleren 50 Prozent.",
+              "Er ist robust gegenüber Ausreißern.",
+              "Er ist eine zentrale Kennzahl im Boxplot."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-016",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist die Varianz?",
+            "back": "Die Varianz ist die mittlere quadratische Abweichung vom Mittelwert."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-017",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist die Standardabweichung?",
+            "back": "Die Standardabweichung ist die Wurzel aus der Varianz."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lage-und-streumasse-018",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Eigenschaften hat die Standardabweichung?",
+            "back": [
+              "Sie hat dieselbe Einheit wie die Daten.",
+              "Sie ist empfindlich gegenüber Ausreißern.",
+              "Sie basiert auf quadrierten Abweichungen."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "boxplot",
+        "title": "Boxplot",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-boxplot-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was fasst ein Boxplot zusammen?",
+            "back": "Ein Boxplot fasst zentrale Lage und Streuung kompakt zusammen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-boxplot-002",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche Elemente hat ein Boxplot und was bedeuten sie?",
+            "back": [
+              "Box: Bereich von Q1 bis Q3",
+              "Länge der Box: IQR",
+              "Dicker Strich: Median",
+              "Whisker beziehungsweise Antennen: typischer Bereich außerhalb der Box",
+              "Punkte: potenzielle Ausreißer"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-boxplot-003",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie lauten die Grenzen der Whisker im Boxplot?",
+            "back": [
+              "Untere Grenze: Q1 - 1.5 · IQR",
+              "Obere Grenze: Q3 + 1.5 · IQR"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-boxplot-004",
+            "type": "assertion",
+            "examRelevance": "high",
+            "front": "Der Boxplot zeigt den Mittelwert als dicken Strich.",
+            "back": "Falsch. Der dicke Strich im Boxplot zeigt den Median."
+          },
+          {
+            "id": "sem2-quantitative-methoden-boxplot-005",
+            "type": "assertion",
+            "examRelevance": "medium",
+            "front": "Die Standardabweichung kann man aus einem Boxplot direkt ablesen.",
+            "back": "Falsch. Die Standardabweichung kann man aus einem Boxplot nicht direkt ablesen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-boxplot-006",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Worauf deutet ein deutlich längerer oberer Bereich im Boxplot hin?",
+            "back": "Ein deutlich längerer oberer Bereich spricht für Rechtsschiefe."
+          },
+          {
+            "id": "sem2-quantitative-methoden-boxplot-007",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie beschreibt man einen Boxplot klausurtauglich?",
+            "back": "Die Box reicht von Q1 bis Q3 und enthält die mittleren 50 Prozent der Daten. Der dicke Strich zeigt den Median. Punkte außerhalb der Whisker sind potenzielle Ausreißer."
+          }
+        ]
+      },
+      {
+        "id": "standardisierung-und-z-werte",
+        "title": "Standardisierung und z-Werte",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-standardisierung-und-z-werte-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Wozu dient die z-Transformation?",
+            "back": "Die z-Transformation macht Werte aus unterschiedlichen Verteilungen vergleichbar."
+          },
+          {
+            "id": "sem2-quantitative-methoden-standardisierung-und-z-werte-002",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die z-Transformation für Populationswerte?",
+            "back": "z = (x - μ) / σ"
+          },
+          {
+            "id": "sem2-quantitative-methoden-standardisierung-und-z-werte-003",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die z-Transformation bei Stichproben?",
+            "back": "z = (x_i - x̄) / s"
+          },
+          {
+            "id": "sem2-quantitative-methoden-standardisierung-und-z-werte-004",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Wie interpretiert man z-Werte?",
+            "back": [
+              "z = 0: exakt durchschnittlich",
+              "z = +1: eine Standardabweichung über dem Mittelwert",
+              "z = -1: eine Standardabweichung unter dem Mittelwert",
+              "z = +2: zwei Standardabweichungen über dem Mittelwert",
+              "z = -2: zwei Standardabweichungen unter dem Mittelwert"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-standardisierung-und-z-werte-005",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Was gilt nach der Standardisierung?",
+            "back": [
+              "Der Mittelwert der z-Werte ist 0.",
+              "Die Standardabweichung der z-Werte ist 1.",
+              "Die Verteilungsform bleibt gleich."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "normalverteilung",
+        "title": "Normalverteilung",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-normalverteilung-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist die Normalverteilung?",
+            "back": "Die Normalverteilung ist eine theoretische, glockenförmige Verteilung."
+          },
+          {
+            "id": "sem2-quantitative-methoden-normalverteilung-002",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Eigenschaften hat die Normalverteilung?",
+            "back": [
+              "Symmetrisch",
+              "Unimodal",
+              "Glockenförmig",
+              "Vollständig bestimmt durch μ und σ"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-normalverteilung-003",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche Bedeutung haben μ und σ bei der Normalverteilung?",
+            "back": [
+              "μ: Erwartungswert, Lage beziehungsweise Zentrum",
+              "σ: Standardabweichung, Streuung beziehungsweise Breite"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-normalverteilung-004",
+            "type": "comparison",
+            "examRelevance": "medium",
+            "front": "Wie unterscheiden sich kleines und großes σ grafisch?",
+            "back": [
+              "Kleines σ: schmale, hohe Kurve",
+              "Großes σ: breite, flache Kurve"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-normalverteilung-005",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wo liegen die Wendepunkte der Normalverteilung?",
+            "back": "Die Wendepunkte liegen bei μ - σ und μ + σ."
+          },
+          {
+            "id": "sem2-quantitative-methoden-normalverteilung-006",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist die Standardnormalverteilung?",
+            "back": "Die Standardnormalverteilung hat μ = 0 und σ = 1."
+          },
+          {
+            "id": "sem2-quantitative-methoden-normalverteilung-007",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie entsteht die Standardnormalverteilung?",
+            "back": "Sie entsteht durch z-Transformation."
+          },
+          {
+            "id": "sem2-quantitative-methoden-normalverteilung-008",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Wie lautet die 68-95-99,7-Regel?",
+            "back": [
+              "μ ± 1σ: ca. 68 Prozent",
+              "μ ± 2σ: ca. 95 Prozent",
+              "μ ± 3σ: ca. 99,7 Prozent"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-normalverteilung-009",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie interpretiert man Werte außerhalb von μ ± 2σ und μ ± 3σ?",
+            "back": "Ein Wert außerhalb von μ ± 2σ ist eher ungewöhnlich. Ein Wert außerhalb von μ ± 3σ ist sehr selten."
+          },
+          {
+            "id": "sem2-quantitative-methoden-normalverteilung-010",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen PDF und CDF?",
+            "back": [
+              "PDF: Dichtefunktion beziehungsweise Glockenkurve",
+              "CDF: kumulative Verteilungsfunktion beziehungsweise Fläche links von x"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-normalverteilung-011",
+            "type": "assertion",
+            "examRelevance": "medium",
+            "front": "Die PDF gibt eine direkte Wahrscheinlichkeit an einem Punkt an.",
+            "back": "Falsch. Die PDF gibt keine direkte Wahrscheinlichkeit an einem Punkt an."
+          },
+          {
+            "id": "sem2-quantitative-methoden-normalverteilung-012",
+            "type": "assertion",
+            "examRelevance": "medium",
+            "front": "Bei stetigen Verteilungen ist die Wahrscheinlichkeit für exakt einen Wert theoretisch 0.",
+            "back": "Richtig. Wahrscheinlichkeiten entsprechen bei stetigen Verteilungen Flächen unter der Kurve."
+          },
+          {
+            "id": "sem2-quantitative-methoden-normalverteilung-013",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen pnorm und qnorm?",
+            "back": [
+              "pnorm(q, mean, sd): Eingabe ist ein Wert q, Ausgabe ist P(X ≤ q).",
+              "qnorm(p, mean, sd): Eingabe ist eine Wahrscheinlichkeit p, Ausgabe ist der Wert, der von p unterschritten wird."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-normalverteilung-014",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie bestimmt man mit qnorm den mittleren 95%-Bereich?",
+            "back": "qnorm(p = c(0.025, 0.975), mean = ..., sd = ...)"
+          }
+        ]
+      },
+      {
+        "id": "metrische-zusammenhaenge-kovarianz-und-korrelation",
+        "title": "Metrische Zusammenhänge, Kovarianz und Korrelation",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-metrische-zusammenhaenge-kovarianz-und-korrelation-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was zeigt ein Streudiagramm?",
+            "back": "Ein Streudiagramm zeigt den Zusammenhang zwischen zwei metrischen Variablen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-metrische-zusammenhaenge-kovarianz-und-korrelation-002",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Welche R-Syntax erzeugt ein Streudiagramm?",
+            "back": "gf_point(y ~ x, data = daten)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-metrische-zusammenhaenge-kovarianz-und-korrelation-003",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Wie interpretiert man typische Muster im Streudiagramm?",
+            "back": [
+              "Positive Richtung: je mehr X, desto mehr Y",
+              "Negative Richtung: je mehr X, desto weniger Y",
+              "Kein Muster: kein klarer Zusammenhang",
+              "Gekrümmtes Muster: nicht-linearer Zusammenhang"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-metrische-zusammenhaenge-kovarianz-und-korrelation-004",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Wann ist ein lineares Modell plausibel?",
+            "back": "Ein lineares Modell ist plausibel, wenn die Glättungslinie ungefähr gerade ist."
+          },
+          {
+            "id": "sem2-quantitative-methoden-metrische-zusammenhaenge-kovarianz-und-korrelation-005",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was misst die Kovarianz?",
+            "back": "Die Kovarianz misst gemeinsames Variieren zweier Variablen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-metrische-zusammenhaenge-kovarianz-und-korrelation-006",
+            "type": "schema",
+            "examRelevance": "medium",
+            "front": "Wie ist die Vorzeichenlogik der Kovarianz?",
+            "back": [
+              "Beide Werte über dem Mittelwert: positiver Beitrag",
+              "Beide Werte unter dem Mittelwert: positiver Beitrag",
+              "Ein Wert drüber und einer drunter: negativer Beitrag"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-metrische-zusammenhaenge-kovarianz-und-korrelation-007",
+            "type": "reasoning",
+            "examRelevance": "medium",
+            "front": "Warum ist die Kovarianz schwer interpretierbar?",
+            "back": "Die Kovarianz hängt von Maßeinheiten ab."
+          },
+          {
+            "id": "sem2-quantitative-methoden-metrische-zusammenhaenge-kovarianz-und-korrelation-008",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist Korrelation?",
+            "back": "Korrelation ist die standardisierte Kovarianz."
+          },
+          {
+            "id": "sem2-quantitative-methoden-metrische-zusammenhaenge-kovarianz-und-korrelation-009",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Eigenschaften hat die Korrelation?",
+            "back": [
+              "Wertebereich von -1 bis +1",
+              "Einheitenunabhängig",
+              "Misst lineare Zusammenhänge",
+              "Empfindlich gegenüber Ausreißern"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-metrische-zusammenhaenge-kovarianz-und-korrelation-010",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Wie interpretiert man r = +1, r = -1 und r = 0?",
+            "back": [
+              "r = +1: perfekter positiver linearer Zusammenhang",
+              "r = -1: perfekter negativer linearer Zusammenhang",
+              "r = 0: kein linearer Zusammenhang"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-metrische-zusammenhaenge-kovarianz-und-korrelation-011",
+            "type": "assertion",
+            "examRelevance": "high",
+            "front": "r = 0 bedeutet, dass kein Zusammenhang existiert.",
+            "back": "Falsch. r = 0 bedeutet nur, dass kein linearer Zusammenhang erkennbar ist. Ein nicht-linearer Zusammenhang kann trotzdem existieren."
+          },
+          {
+            "id": "sem2-quantitative-methoden-metrische-zusammenhaenge-kovarianz-und-korrelation-012",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie lautet der Zusammenhang zwischen Steigung und Korrelation?",
+            "back": "b1 = r · s_y / s_x"
+          },
+          {
+            "id": "sem2-quantitative-methoden-metrische-zusammenhaenge-kovarianz-und-korrelation-013",
+            "type": "assertion",
+            "examRelevance": "high",
+            "front": "Korrelation ist Kausalität.",
+            "back": "Falsch. Korrelation ist keine Kausalität."
+          },
+          {
+            "id": "sem2-quantitative-methoden-metrische-zusammenhaenge-kovarianz-und-korrelation-014",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie beschreibt man Korrelation klausurtauglich?",
+            "back": "Der Korrelationskoeffizient beschreibt nur lineare Zusammenhänge. Ein Wert nahe 0 bedeutet nicht zwingend, dass kein Zusammenhang existiert, sondern nur, dass kein linearer Zusammenhang erkennbar ist."
+          }
+        ]
+      },
+      {
+        "id": "lineare-regression",
+        "title": "Lineare Regression",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was modelliert die lineare Regression?",
+            "back": "Die lineare Regression modelliert einen linearen Zusammenhang zwischen einer unabhängigen Variable x und einer abhängigen Variable y."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-002",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet das Grundmodell der linearen Regression?",
+            "back": "y_i = β0 + β1x_i + ε_i"
+          },
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-003",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Was bedeuten y_i, β0, β1, x_i und ε_i im Regressionsmodell?",
+            "back": [
+              "y_i: beobachteter Wert",
+              "β0: Intercept beziehungsweise Achsenabschnitt",
+              "β1: Steigung",
+              "x_i: unabhängige Variable",
+              "ε_i: Residuum beziehungsweise Fehler"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-004",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die Regressionsgleichung in der Stichprobe häufig?",
+            "back": "ŷ = b0 + b1x"
+          },
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-005",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet der Intercept b0?",
+            "back": "b0 ist der erwartete Wert von y, wenn x = 0 ist."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-006",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Wann ist der Intercept inhaltlich sinnvoll interpretierbar?",
+            "back": "Der Intercept ist nur inhaltlich sinnvoll, wenn x = 0 realistisch interpretierbar ist."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-007",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet die Steigung b1?",
+            "back": "Wenn x um eine Einheit steigt, verändert sich y im Mittel um b1 Einheiten."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-008",
+            "type": "reasoning",
+            "examRelevance": "medium",
+            "front": "Wie interpretiert man Preis = 6.42 + 0.13 · Pieces?",
+            "back": [
+              "Ein Set mit 0 Teilen hätte theoretisch 6,42 Grundpreis.",
+              "Jedes zusätzliche Teil erhöht den Preis im Mittel um 0,13.",
+              "Für 100 Teile ergibt sich 6.42 + 0.13 · 100 = 19.42."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-009",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist OLS?",
+            "back": "OLS sucht die Gerade, welche die Summe der quadrierten Residuen minimiert."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-010",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie lautet die Formel für ein Residuum?",
+            "back": "e_i = y_i - ŷ_i"
+          },
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-011",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Warum werden Residuen bei OLS quadriert?",
+            "back": [
+              "Positive und negative Fehler heben sich nicht auf.",
+              "Große Fehler werden stärker bestraft.",
+              "Die Quadratfunktion ist mathematisch gut handhabbar."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-012",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie lautet die Matrixform der Regression?",
+            "back": "y = Xβ + ε"
+          },
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-013",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie lautet der OLS-Schätzer in Matrixform?",
+            "back": "β̂ = (X'X)^(-1)X'y"
+          },
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-014",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Warum wird in X eine Einsen-Spalte eingefügt?",
+            "back": "Damit der Intercept geschätzt werden kann."
+          },
+          {
+            "id": "sem2-quantitative-methoden-lineare-regression-015",
+            "type": "schema",
+            "examRelevance": "medium",
+            "front": "Welche R-Befehle sind für lineare Regression wichtig?",
+            "back": [
+              "lm(): lineares Modell erstellen",
+              "coef(): Koeffizienten ausgeben",
+              "summary(): Modellzusammenfassung, R² und p-Werte",
+              "resid(): Residuen",
+              "fitted(): vorhergesagte Werte",
+              "gf_lm(): Regressionsgerade zeichnen"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bestimmtheitsmass-und-residualplots",
+        "title": "Bestimmtheitsmaß und Residualplots",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-bestimmtheitsmass-und-residualplots-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was gibt R² an?",
+            "back": "R² gibt an, welcher Anteil der Variation von y durch das Modell erklärt wird."
+          },
+          {
+            "id": "sem2-quantitative-methoden-bestimmtheitsmass-und-residualplots-002",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie kann R² als Verhältnis formuliert werden?",
+            "back": "R² = erklärte Variation / gesamte Variation"
+          },
+          {
+            "id": "sem2-quantitative-methoden-bestimmtheitsmass-und-residualplots-003",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie kann R² über Residuen formuliert werden?",
+            "back": "R² = 1 - Varianz der Residuen / Varianz der beobachteten Werte"
+          },
+          {
+            "id": "sem2-quantitative-methoden-bestimmtheitsmass-und-residualplots-004",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie interpretiert man R² = 0.66?",
+            "back": "R² = 0.66 bedeutet, dass 66 Prozent der Variation der abhängigen Variable durch das Modell erklärt werden."
+          },
+          {
+            "id": "sem2-quantitative-methoden-bestimmtheitsmass-und-residualplots-005",
+            "type": "assertion",
+            "examRelevance": "high",
+            "front": "R² = 0.66 bedeutet, dass 66 Prozent der Beobachtungen exakt richtig vorhergesagt wurden.",
+            "back": "Falsch. R² beschreibt erklärte Variation, nicht den Anteil exakt richtiger Einzelvorhersagen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-bestimmtheitsmass-und-residualplots-006",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Grenzen hat R²?",
+            "back": [
+              "R² sagt nicht, dass ein bestimmter Anteil der Beobachtungen exakt richtig vorhergesagt wurde.",
+              "R² steigt oft automatisch, wenn mehr Variablen hinzugefügt werden.",
+              "Hohes R² bedeutet nicht automatisch Kausalität.",
+              "Hohes R² bedeutet nicht automatisch ein gutes Modell."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-bestimmtheitsmass-und-residualplots-007",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was zeigt ein Residualplot?",
+            "back": "Ein Residualplot zeigt auf der x-Achse die vorhergesagten Werte und auf der y-Achse die Residuen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-bestimmtheitsmass-und-residualplots-008",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Wie sieht ein idealer Residualplot aus?",
+            "back": "Ein idealer Residualplot zeigt eine zufällige, strukturlose Punktewolke."
+          },
+          {
+            "id": "sem2-quantitative-methoden-bestimmtheitsmass-und-residualplots-009",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Warnsignale gibt es im Residualplot?",
+            "back": [
+              "Kurvenform",
+              "Trichterform",
+              "Systematische Muster",
+              "Ausreißercluster"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-bestimmtheitsmass-und-residualplots-010",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie interpretiert man ein Muster im Residualplot?",
+            "back": "Wenn im Residualplot ein Muster erkennbar ist, hat das Modell Struktur in den Daten nicht erfasst. Dann ist eine einfache lineare Regression möglicherweise ungeeignet."
+          }
+        ]
+      },
+      {
+        "id": "regression-mit-kategorialen-variablen",
+        "title": "Regression mit kategorialen Variablen",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-regression-mit-kategorialen-variablen-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was sind Dummy-Variablen?",
+            "back": "Dummy-Variablen sind 0/1-Variablen, mit denen kategoriale Variablen in der Regression abgebildet werden."
+          },
+          {
+            "id": "sem2-quantitative-methoden-regression-mit-kategorialen-variablen-002",
+            "type": "schema",
+            "examRelevance": "medium",
+            "front": "Wie kann Geschlecht als Dummy-Variable IstMann kodiert werden?",
+            "back": [
+              "Frau: 0",
+              "Mann: 1"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-regression-mit-kategorialen-variablen-003",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie lautet ein einfaches Regressionsmodell mit Dummy-Variable IstMann?",
+            "back": "ŷ = β0 + β1 · IstMann"
+          },
+          {
+            "id": "sem2-quantitative-methoden-regression-mit-kategorialen-variablen-004",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Wie interpretiert man β0 und β1 bei einer Dummy-Variable?",
+            "back": [
+              "β0: Mittelwert der Referenzkategorie",
+              "β1: Unterschied zur Referenzkategorie"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-regression-mit-kategorialen-variablen-005",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Was ist eine Referenzkategorie?",
+            "back": "Eine Referenzkategorie ist die Basis, mit der die anderen Kategorien verglichen werden."
+          },
+          {
+            "id": "sem2-quantitative-methoden-regression-mit-kategorialen-variablen-006",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Wie interpretiert man das Modell Preis = b0 + b1 · Pieces + b2 · Duplo + b3 · Friends mit Referenz City?",
+            "back": [
+              "b0: Grundpreis für City",
+              "b1: Preissteigerung pro Teil",
+              "b2: Unterschied Duplo zu City",
+              "b3: Unterschied Friends zu City"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-regression-mit-kategorialen-variablen-007",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Warum sind Geraden ohne Interaktion bei mehreren Kategorien parallel?",
+            "back": "Ohne Interaktion haben alle Gruppen dieselbe Steigung."
+          }
+        ]
+      },
+      {
+        "id": "multiple-regression-und-interaktion",
+        "title": "Multiple Regression und Interaktion",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-multiple-regression-und-interaktion-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist multiple Regression?",
+            "back": "Multiple Regression nutzt mehrere Prädiktoren, um y durch mehrere Einflussgrößen gleichzeitig zu erklären."
+          },
+          {
+            "id": "sem2-quantitative-methoden-multiple-regression-und-interaktion-002",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die Grundform der multiplen Regression?",
+            "back": "y = β0 + β1x1 + β2x2 + ... + ε"
+          },
+          {
+            "id": "sem2-quantitative-methoden-multiple-regression-und-interaktion-003",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet Ceteris-paribus-Interpretation in der multiplen Regression?",
+            "back": "Der Koeffizient einer Variable beschreibt die Veränderung von y, wenn diese Variable um eine Einheit steigt, während alle anderen Variablen konstant gehalten werden."
+          },
+          {
+            "id": "sem2-quantitative-methoden-multiple-regression-und-interaktion-004",
+            "type": "reasoning",
+            "examRelevance": "medium",
+            "front": "Wie interpretiert man Gewicht = 2.4 + 0.6 · Gepunktet + 0.3 · Höhe?",
+            "back": [
+              "Gepunktete Drachen wiegen bei gleicher Höhe im Mittel 0,6 Tonnen mehr als gestreifte.",
+              "Pro zusätzlicher Höheneinheit steigt das Gewicht im Mittel um 0,3 Tonnen.",
+              "Die Referenzkategorie ist gestreift."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-multiple-regression-und-interaktion-005",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet Interaktion beziehungsweise Wechselwirkung?",
+            "back": "Eine Interaktion bedeutet, dass der Effekt einer Variable vom Wert einer anderen Variable abhängt."
+          },
+          {
+            "id": "sem2-quantitative-methoden-multiple-regression-und-interaktion-006",
+            "type": "reasoning",
+            "examRelevance": "medium",
+            "front": "Warum kann bei Lego-Preisen ein Interaktionsterm sinnvoll sein?",
+            "back": "Weil ein zusätzlicher Stein bei Duplo teurer sein kann als bei City, da Duplo-Steine größer sind. Dann reicht ein Modell mit gleicher Steigung nicht."
+          },
+          {
+            "id": "sem2-quantitative-methoden-multiple-regression-und-interaktion-007",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Welche R-Syntax beschreibt ein Modell mit Interaktion zwischen Pieces und Theme?",
+            "back": "lm(Preis ~ Pieces * Theme, data = lego)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-multiple-regression-und-interaktion-008",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Was bedeutet Pieces * Theme in der R-Formelsyntax?",
+            "back": "Pieces * Theme bedeutet Pieces + Theme + Pieces:Theme."
+          },
+          {
+            "id": "sem2-quantitative-methoden-multiple-regression-und-interaktion-009",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Wie verändert eine Interaktion Intercept und Steigung?",
+            "back": [
+              "b2 verändert den Intercept.",
+              "b3 verändert die Steigung.",
+              "Interaktion erlaubt nicht-parallele Geraden."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "modellselektion-und-overfitting",
+        "title": "Modellselektion und Overfitting",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-modellselektion-und-overfitting-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was bedeutet Overfitting?",
+            "back": "Overfitting bedeutet, dass sich ein Modell zu stark an die Trainingsdaten anpasst und schlecht auf neue Daten generalisiert."
+          },
+          {
+            "id": "sem2-quantitative-methoden-modellselektion-und-overfitting-002",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Probleme sind typisch für Overfitting?",
+            "back": [
+              "Zu viele Variablen",
+              "Zu komplexes Modell",
+              "Scheinbar gutes R²",
+              "Schlechte Prognose auf neuen Daten"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-modellselektion-und-overfitting-003",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was macht das korrigierte R²?",
+            "back": "Adjusted R² bestraft unnötige Modellkomplexität."
+          },
+          {
+            "id": "sem2-quantitative-methoden-modellselektion-und-overfitting-004",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wofür eignet sich Adjusted R² besser als R²?",
+            "back": "Adjusted R² eignet sich besser zum Vergleich von Modellen mit unterschiedlich vielen Variablen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-modellselektion-und-overfitting-005",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Wofür steht AIC?",
+            "back": "AIC steht für Akaike Information Criterion."
+          },
+          {
+            "id": "sem2-quantitative-methoden-modellselektion-und-overfitting-006",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie interpretiert man AIC im Modellvergleich?",
+            "back": "Je kleiner der AIC, desto besser im Modellvergleich."
+          },
+          {
+            "id": "sem2-quantitative-methoden-modellselektion-und-overfitting-007",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Was balanciert AIC?",
+            "back": "AIC balanciert Modellgüte und Modellkomplexität."
+          },
+          {
+            "id": "sem2-quantitative-methoden-modellselektion-und-overfitting-008",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist ein Train-Test-Split?",
+            "back": "Beim Train-Test-Split werden Daten in Trainingsdaten zum Modellbau und Testdaten zur Modellprüfung aufgeteilt."
+          },
+          {
+            "id": "sem2-quantitative-methoden-modellselektion-und-overfitting-009",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wozu dient der Train-Test-Split?",
+            "back": "Er prüft, ob das Modell auch auf neuen Daten funktioniert."
+          }
+        ]
+      },
+      {
+        "id": "inferenzstatistik-und-schaetzen",
+        "title": "Inferenzstatistik und Schätzen",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-inferenzstatistik-und-schaetzen-001",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen EDA und Inferenz?",
+            "back": [
+              "EDA beschreibt die Stichprobe.",
+              "Inferenz versucht, von der Stichprobe auf die Population zu schließen."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-inferenzstatistik-und-schaetzen-002",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Konzepte braucht man für Inferenzstatistik?",
+            "back": [
+              "Punktschätzer",
+              "Standardfehler",
+              "Konfidenzintervalle",
+              "Hypothesentests",
+              "p-Werte",
+              "Fehlerarten"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-inferenzstatistik-und-schaetzen-003",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein Punktschätzer?",
+            "back": "Ein Punktschätzer ist ein einzelner Wert aus der Stichprobe, der einen unbekannten Populationsparameter schätzt."
+          },
+          {
+            "id": "sem2-quantitative-methoden-inferenzstatistik-und-schaetzen-004",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche Punktschätzer gehören zu μ, π und β1?",
+            "back": [
+              "μ wird durch x̄ geschätzt.",
+              "π wird durch p̂ geschätzt.",
+              "β1 wird durch β̂1 beziehungsweise b1 geschätzt."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-inferenzstatistik-und-schaetzen-005",
+            "type": "assertion",
+            "examRelevance": "high",
+            "front": "Hypothesen beziehen sich nur auf die Stichprobe.",
+            "back": "Falsch. Hypothesen beziehen sich auf die Population, nicht nur auf die Stichprobe."
+          },
+          {
+            "id": "sem2-quantitative-methoden-inferenzstatistik-und-schaetzen-006",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen Bias und Noise?",
+            "back": [
+              "Bias ist systematische Verzerrung.",
+              "Noise ist zufällige Streuung."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-inferenzstatistik-und-schaetzen-007",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Wodurch kann Bias entstehen?",
+            "back": [
+              "Nicht-repräsentative Stichprobe",
+              "Schlechte Messung",
+              "Systematische Verzerrung im Design"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-inferenzstatistik-und-schaetzen-008",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie kann Noise tendenziell reduziert werden?",
+            "back": "Noise sinkt tendenziell durch größere Stichproben."
+          },
+          {
+            "id": "sem2-quantitative-methoden-inferenzstatistik-und-schaetzen-009",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was beschreibt der Standardfehler?",
+            "back": "Der Standardfehler beschreibt die Streuung eines Schätzers über viele hypothetische Stichproben."
+          },
+          {
+            "id": "sem2-quantitative-methoden-inferenzstatistik-und-schaetzen-010",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet der Standardfehler für Mittelwerte?",
+            "back": "SE = s / √n"
+          },
+          {
+            "id": "sem2-quantitative-methoden-inferenzstatistik-und-schaetzen-011",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Eigenschaften hat der Standardfehler?",
+            "back": [
+              "Größeres n führt zu kleinerem SE.",
+              "Mehr Bootstrap-Simulationen machen die Verteilung glatter, senken den SE aber nicht systematisch.",
+              "Weniger Streuung in den Daten führt zu kleinerem SE."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bootstrapping",
+        "title": "Bootstrapping",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-bootstrapping-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist Bootstrapping?",
+            "back": "Bootstrapping simuliert viele neue Stichproben aus der vorhandenen Stichprobe."
+          },
+          {
+            "id": "sem2-quantitative-methoden-bootstrapping-002",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Wie läuft Bootstrapping ab?",
+            "back": [
+              "Aus der Originalstichprobe ziehen",
+              "Gleiche Stichprobengröße n verwenden",
+              "Mit Zurücklegen ziehen",
+              "Statistik jedes Mal berechnen",
+              "Verteilung der Statistiken betrachten"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-bootstrapping-003",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Wozu dient Bootstrapping?",
+            "back": [
+              "Schätzung des Standardfehlers",
+              "Schätzung eines Konfidenzintervalls",
+              "Schätzung der Unsicherheit eines Punktschätzers"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-bootstrapping-004",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie wird Bootstrapping bei Regression angewendet?",
+            "back": "Man zieht viele Bootstrap-Stichproben, schätzt für jede Stichprobe die Steigung und interpretiert die Verteilung der Steigungen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-bootstrapping-005",
+            "type": "assertion",
+            "examRelevance": "high",
+            "front": "Beim Bootstrapping von Paaren (x, y) darf man x und y getrennt resamplen.",
+            "back": "Falsch. Man muss Zeilenindizes resamplen und ganze Beobachtungspaare ziehen, sonst wird die Zuordnung zwischen x und y zerstört."
+          }
+        ]
+      },
+      {
+        "id": "konfidenzintervalle",
+        "title": "Konfidenzintervalle",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-konfidenzintervalle-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein Konfidenzintervall?",
+            "back": "Ein Konfidenzintervall gibt einen plausiblen Wertebereich für einen unbekannten Populationsparameter an."
+          },
+          {
+            "id": "sem2-quantitative-methoden-konfidenzintervalle-002",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie interpretiert man ein 95%-Konfidenzintervall klausurfreundlich?",
+            "back": "Werte innerhalb des Konfidenzintervalls sind mit den Daten plausibel vereinbar. Werte außerhalb sind eher unplausibel."
+          },
+          {
+            "id": "sem2-quantitative-methoden-konfidenzintervalle-003",
+            "type": "schema",
+            "examRelevance": "medium",
+            "front": "Wie kann man ein Konfidenzintervall über Bootstrap-Quantile berechnen?",
+            "back": [
+              "2,5%-Quantil",
+              "97,5%-Quantil"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-konfidenzintervalle-004",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die näherungsweise Formel für ein Konfidenzintervall?",
+            "back": "Punktschätzer ± 2 · SE"
+          },
+          {
+            "id": "sem2-quantitative-methoden-konfidenzintervalle-005",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie lautet die genauere Normalverteilungsnäherung für ein Konfidenzintervall?",
+            "back": "Punktschätzer ± 1.96 · SE"
+          },
+          {
+            "id": "sem2-quantitative-methoden-konfidenzintervalle-006",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Wie verändert sich die Breite eines Konfidenzintervalls?",
+            "back": [
+              "Höheres Konfidenzniveau: Intervall wird breiter.",
+              "Größeres n: Intervall wird schmaler.",
+              "Größere Streuung: Intervall wird breiter."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-konfidenzintervalle-007",
+            "type": "assertion",
+            "examRelevance": "medium",
+            "front": "Ein 99%-Konfidenzintervall ist schmaler als ein 95%-Konfidenzintervall.",
+            "back": "Falsch. Ein 99%-Konfidenzintervall ist breiter als ein 95%-Konfidenzintervall."
+          }
+        ]
+      },
+      {
+        "id": "hypothesentests-und-p-wert",
+        "title": "Hypothesentests und p-Wert",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-hypothesentests-und-p-wert-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was prüft ein Hypothesentest?",
+            "back": "Ein Hypothesentest prüft, ob ein beobachtetes Ergebnis unter einer Nullhypothese plausibel wäre."
+          },
+          {
+            "id": "sem2-quantitative-methoden-hypothesentests-und-p-wert-002",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Was versucht man bei einem Hypothesentest nicht?",
+            "back": "Man versucht nicht, die Forschungshypothese zu beweisen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-hypothesentests-und-p-wert-003",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist die Nullhypothese H0?",
+            "back": "Die Nullhypothese beschreibt typischerweise keinen Effekt, keinen Unterschied oder keinen Zusammenhang."
+          },
+          {
+            "id": "sem2-quantitative-methoden-hypothesentests-und-p-wert-004",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist die Alternativhypothese HA?",
+            "back": "Die Alternativhypothese beschreibt typischerweise, dass es einen Effekt, einen Unterschied oder einen Zusammenhang gibt."
+          },
+          {
+            "id": "sem2-quantitative-methoden-hypothesentests-und-p-wert-005",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Nenne typische Nullhypothesen.",
+            "back": [
+              "H0: β1 = 0",
+              "H0: μA = μB",
+              "H0: π = 0.5"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-hypothesentests-und-p-wert-006",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Nenne typische Alternativhypothesen.",
+            "back": [
+              "HA: β1 ≠ 0",
+              "HA: μA ≠ μB",
+              "HA: π > 0.5"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-hypothesentests-und-p-wert-007",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Wie läuft ein Hypothesentest ab?",
+            "back": [
+              "Hypothesen formulieren",
+              "Nullverteilung simulieren oder theoretisch bestimmen",
+              "Beobachteten Wert einordnen",
+              "p-Wert berechnen",
+              "Mit Signifikanzniveau vergleichen",
+              "Entscheidung formulieren"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-hypothesentests-und-p-wert-008",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist der p-Wert?",
+            "back": "Der p-Wert ist die Wahrscheinlichkeit, unter Annahme der Nullhypothese ein Ergebnis zu erhalten, das mindestens so extrem ist wie das beobachtete Ergebnis."
+          },
+          {
+            "id": "sem2-quantitative-methoden-hypothesentests-und-p-wert-009",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie kann man den p-Wert formal beschreiben?",
+            "back": "P(Daten oder extremere Daten | H0)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-hypothesentests-und-p-wert-010",
+            "type": "assertion",
+            "examRelevance": "high",
+            "front": "Der p-Wert ist die Wahrscheinlichkeit, dass H0 wahr ist.",
+            "back": "Falsch. Der p-Wert ist nicht P(H0 | Daten), sondern P(Daten oder extremere Daten | H0)."
+          },
+          {
+            "id": "sem2-quantitative-methoden-hypothesentests-und-p-wert-011",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Wie lautet die Entscheidungsregel bei α = 0.05?",
+            "back": [
+              "p < 0.05: H0 verwerfen",
+              "p ≥ 0.05: H0 nicht verwerfen"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-hypothesentests-und-p-wert-012",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie formuliert man ein signifikantes Ergebnis klausurtauglich?",
+            "back": "Da der p-Wert kleiner als 0,05 ist, wird die Nullhypothese verworfen. Das Ergebnis ist statistisch signifikant."
+          },
+          {
+            "id": "sem2-quantitative-methoden-hypothesentests-und-p-wert-013",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie formuliert man ein nicht signifikantes Ergebnis klausurtauglich?",
+            "back": "Da der p-Wert größer oder gleich 0,05 ist, wird die Nullhypothese nicht verworfen. Ein statistisch signifikanter Effekt kann nicht gezeigt werden."
+          },
+          {
+            "id": "sem2-quantitative-methoden-hypothesentests-und-p-wert-014",
+            "type": "assertion",
+            "examRelevance": "high",
+            "front": "Ein kleiner p-Wert bedeutet automatisch einen großen oder praktisch relevanten Effekt.",
+            "back": "Falsch. Ein kleiner p-Wert bedeutet nicht automatisch, dass der Effekt groß oder praktisch relevant ist."
+          }
+        ]
+      },
+      {
+        "id": "permutationstest",
+        "title": "Permutationstest",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-permutationstest-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was simuliert ein Permutationstest?",
+            "back": "Ein Permutationstest simuliert eine Welt, in der H0 wahr ist."
+          },
+          {
+            "id": "sem2-quantitative-methoden-permutationstest-002",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Wie funktioniert ein Permutationstest bei Zusammenhangstests?",
+            "back": [
+              "x wird gemischt.",
+              "y bleibt gleich.",
+              "Die Zuordnung zwischen x und y wird zerstört.",
+              "Dadurch entsteht eine Nullverteilung."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-permutationstest-003",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Was ist das Ziel eines Permutationstests?",
+            "back": "Man prüft, ob der beobachtete Zusammenhang ungewöhnlich stark ist, wenn eigentlich kein Zusammenhang besteht."
+          },
+          {
+            "id": "sem2-quantitative-methoden-permutationstest-004",
+            "type": "comparison",
+            "examRelevance": "high",
+            "front": "Was ist der Unterschied zwischen Bootstrapping und Permutation?",
+            "back": [
+              "Bootstrapping schätzt die Unsicherheit eines Schätzers und zieht mit Zurücklegen.",
+              "Permutation simuliert die Nullhypothese und arbeitet durch Mischen beziehungsweise ohne Zurücklegen."
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-permutationstest-005",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Welche Frage beantwortet Bootstrapping?",
+            "back": "Wie unsicher ist meine Schätzung?"
+          },
+          {
+            "id": "sem2-quantitative-methoden-permutationstest-006",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Welche Frage beantwortet Permutation?",
+            "back": "Wie ungewöhnlich ist mein Ergebnis, wenn H0 stimmt?"
+          }
+        ]
+      },
+      {
+        "id": "einseitige-und-zweiseitige-tests",
+        "title": "Einseitige und zweiseitige Tests",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-einseitige-und-zweiseitige-tests-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein zweiseitiger Test?",
+            "back": "Ein zweiseitiger Test prüft Abweichungen in beide Richtungen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-einseitige-und-zweiseitige-tests-002",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie können Hypothesen bei einem zweiseitigen Mittelwertvergleich lauten?",
+            "back": [
+              "H0: μA = μB",
+              "HA: μA ≠ μB"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-einseitige-und-zweiseitige-tests-003",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein einseitiger Test?",
+            "back": "Ein einseitiger Test prüft nur eine bestimmte Richtung."
+          },
+          {
+            "id": "sem2-quantitative-methoden-einseitige-und-zweiseitige-tests-004",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie können Hypothesen bei einem einseitigen Anteiltest lauten?",
+            "back": [
+              "H0: π ≤ 0.5",
+              "HA: π > 0.5"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-einseitige-und-zweiseitige-tests-005",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Was gilt bei einem einseitigen Test, wenn der beobachtete Wert in die Gegenrichtung geht?",
+            "back": "Ein beobachteter Wert in die Gegenrichtung stützt nicht die Alternativhypothese."
+          }
+        ]
+      },
+      {
+        "id": "fehlerarten-beim-testen",
+        "title": "Fehlerarten beim Testen",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-fehlerarten-beim-testen-001",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein Fehler 1. Art?",
+            "back": "Ein Fehler 1. Art liegt vor, wenn H0 verworfen wird, obwohl sie wahr ist."
+          },
+          {
+            "id": "sem2-quantitative-methoden-fehlerarten-beim-testen-002",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie wird die Wahrscheinlichkeit für einen Fehler 1. Art kontrolliert?",
+            "back": "Die Wahrscheinlichkeit wird durch α kontrolliert."
+          },
+          {
+            "id": "sem2-quantitative-methoden-fehlerarten-beim-testen-003",
+            "type": "concept",
+            "examRelevance": "medium",
+            "front": "Wie hoch ist das Risiko für einen Fehler 1. Art bei α = 0.05?",
+            "back": "Bei α = 0.05 beträgt das Risiko 5 Prozent."
+          },
+          {
+            "id": "sem2-quantitative-methoden-fehlerarten-beim-testen-004",
+            "type": "definition",
+            "examRelevance": "high",
+            "front": "Was ist ein Fehler 2. Art?",
+            "back": "Ein Fehler 2. Art liegt vor, wenn H0 nicht verworfen wird, obwohl sie falsch ist."
+          },
+          {
+            "id": "sem2-quantitative-methoden-fehlerarten-beim-testen-005",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Wodurch sinkt der Fehler 2. Art tendenziell?",
+            "back": [
+              "Größerer Stichprobenumfang",
+              "Kleinerer Standardfehler",
+              "Größerer echter Effekt",
+              "Höhere Power"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "maximum-likelihood-und-anteilsdaten",
+        "title": "Maximum Likelihood und Anteilsdaten",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-maximum-likelihood-und-anteilsdaten-001",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was fragt Maximum Likelihood?",
+            "back": "Maximum Likelihood fragt, welcher Parameter die beobachteten Daten am wahrscheinlichsten macht."
+          },
+          {
+            "id": "sem2-quantitative-methoden-maximum-likelihood-und-anteilsdaten-002",
+            "type": "reasoning",
+            "examRelevance": "medium",
+            "front": "Was ist der Punktschätzer bei 42 Erfolgen in 56 Versuchen?",
+            "back": "p̂ = 42 / 56 = 0.75"
+          },
+          {
+            "id": "sem2-quantitative-methoden-maximum-likelihood-und-anteilsdaten-003",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet der Standardfehler für Anteilswerte?",
+            "back": "SE = √(p(1-p)/n)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-maximum-likelihood-und-anteilsdaten-004",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Was gilt für den Standardfehler bei Anteilswerten?",
+            "back": [
+              "Größeres n führt zu kleinerem SE.",
+              "Ein Anteil nahe 0,5 führt zu größerer Unsicherheit als ein Anteil nahe 0 oder 1."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zentraler-grenzwertsatz",
+        "title": "Zentraler Grenzwertsatz",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-zentraler-grenzwertsatz-001",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Welche Idee beschreibt der zentrale Grenzwertsatz im Lernzettel?",
+            "back": "Die Verteilung von Stichprobenmittelwerten ist oft näherungsweise normalverteilt, auch wenn die Originaldaten schief sind."
+          },
+          {
+            "id": "sem2-quantitative-methoden-zentraler-grenzwertsatz-002",
+            "type": "schema",
+            "examRelevance": "medium",
+            "front": "Wie wird der zentrale Grenzwertsatz am Beispiel beschrieben?",
+            "back": [
+              "Originaldaten: rechtsschief",
+              "Bootstrap-Verteilung des Mittelwerts: ungefähr glockenförmig"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-zentraler-grenzwertsatz-003",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Was bedeutet der zentrale Grenzwertsatz für Mittelwerte?",
+            "back": "Mittelwerte aus vielen Stichproben verhalten sich oft stabiler und normalverteilter als einzelne Rohdatenwerte."
+          }
+        ]
+      },
+      {
+        "id": "typische-fallstudien",
+        "title": "Typische Fallstudien",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-001",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Themen gehören zur Fallstudie Filmpräferenzen?",
+            "back": [
+              "Kategoriale Daten",
+              "Convenience Sample",
+              "Häufigkeiten",
+              "Bedingte Anteile",
+              "Absolute vs. relative Vergleiche"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-002",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Welche wichtige Aussage gilt bei der Fallstudie Filmpräferenzen?",
+            "back": "Absolute Zahlen können täuschen. Für Gruppenvergleiche sind relative Anteile entscheidend."
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-003",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Themen gehören zur Fallstudie Fruchtfliegen?",
+            "back": [
+              "Metrische Daten",
+              "Histogramme",
+              "Boxplots",
+              "Gruppierung",
+              "Experiment",
+              "Kausalität"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-004",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Welche Kernaussage gilt bei der Fallstudie Fruchtfliegen?",
+            "back": "Wenn Fliegen zufällig Futtergruppen zugeordnet wurden, ist ein Kausalschluss innerhalb dieses Experiments möglich. Die Übertragbarkeit auf Menschen bleibt fraglich."
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-005",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Themen gehören zur Fallstudie Körperfett / BMI?",
+            "back": [
+              "Beobachtungsstudie",
+              "Metrischer Zusammenhang",
+              "Scatterplot",
+              "Lineare Beziehung",
+              "BMI als Näherung"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-006",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Welche Kernaussage gilt bei Körperfett / BMI?",
+            "back": "BMI und Körperfett können stark zusammenhängen, aber BMI unterscheidet nicht zwischen Fett- und Muskelmasse. Daher ist BMI nicht perfekt valide für Körperfett."
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-007",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Themen gehören zur Fallstudie Körpergrößen?",
+            "back": [
+              "Normalverteilung",
+              "z-Werte",
+              "pnorm",
+              "qnorm",
+              "Vergleich Männer/Frauen",
+              "Bayes mit Grundwahrscheinlichkeiten"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-008",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Welche Kernaussage gilt bei Körpergrößen?",
+            "back": "Ob eine bestimmte Körpergröße eher zu einer Frau oder einem Mann passt, hängt nicht nur von den Verteilungen, sondern auch von den Grundwahrscheinlichkeiten in der Population ab."
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-009",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Themen gehören zur Fallstudie Lego-Preise?",
+            "back": [
+              "Einfache Regression",
+              "Multiple Regression",
+              "Dummy-Variablen",
+              "Interaktion",
+              "R²",
+              "Overfitting"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-010",
+            "type": "concept",
+            "examRelevance": "high",
+            "front": "Welche Kernaussage gilt bei Lego-Preisen?",
+            "back": "Der Preis hängt nicht nur von der Anzahl der Teile ab. Themenwelten können andere Grundpreise und andere Preis-pro-Teil-Steigungen haben."
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-011",
+            "type": "list",
+            "examRelevance": "medium",
+            "front": "Welche Themen gehören zur Fallstudie Lächeln vs. Nachsichtigkeit?",
+            "back": [
+              "Mittelwertvergleich",
+              "Bootstrap",
+              "Konfidenzintervall",
+              "Permutationstest",
+              "p-Wert"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-012",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Wie ist die Logik der Fallstudie Lächeln vs. Nachsichtigkeit?",
+            "back": [
+              "Differenz der Mittelwerte berechnen",
+              "Bootstrap-KI betrachten",
+              "Prüfen, ob 0 im Intervall liegt",
+              "Permutationstest durchführen",
+              "p-Wert interpretieren"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-013",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Welche Klausurregel gilt beim Konfidenzintervall der Differenz?",
+            "back": "Wenn 0 nicht im Konfidenzintervall der Differenz liegt, spricht das für einen Unterschied."
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-014",
+            "type": "list",
+            "examRelevance": "low",
+            "front": "Welche Themen gehören zur Fallstudie Lotto / Simulation?",
+            "back": [
+              "Kombinatorik",
+              "Gesetz der großen Zahlen",
+              "Simulation",
+              "p-Wert",
+              "Spielerfehlschluss",
+              "Publikationsbias"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-015",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was besagt das Gesetz der großen Zahlen?",
+            "back": "Die relative Häufigkeit nähert sich langfristig der theoretischen Wahrscheinlichkeit an."
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-016",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist der Spielerfehlschluss?",
+            "back": "Der Spielerfehlschluss ist die falsche Annahme, Zufall müsse kurzfristig ausgleichen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-typische-fallstudien-017",
+            "type": "definition",
+            "examRelevance": "medium",
+            "front": "Was ist Publikationsbias?",
+            "back": "Publikationsbias bedeutet, dass signifikante Ergebnisse eher veröffentlicht werden."
+          }
+        ]
+      },
+      {
+        "id": "r-quarto-und-python",
+        "title": "R, Quarto und Python",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-r-quarto-und-python-001",
+            "type": "schema",
+            "examRelevance": "medium",
+            "front": "Aus welchen Elementen bestehen Quarto-Dokumente?",
+            "back": [
+              "YAML-Header: Metadaten, Titel und Output",
+              "Code-Chunks: ausführbarer Code",
+              "Inline-Code: Code im Fließtext",
+              "Rendern: Erzeugen von HTML, PDF oder Output"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-r-quarto-und-python-002",
+            "type": "assertion",
+            "examRelevance": "low",
+            "front": "Beim Rendern in Quarto wird eine Rechtschreibprüfung durchgeführt.",
+            "back": "Falsch. Beim Rendern wird Code ausgeführt, aber keine Rechtschreibprüfung durchgeführt."
+          },
+          {
+            "id": "sem2-quantitative-methoden-r-quarto-und-python-003",
+            "type": "schema",
+            "examRelevance": "medium",
+            "front": "Welche wichtigen R-Befehle zur Datenstruktur wurden genannt?",
+            "back": [
+              "str(): Struktur anzeigen",
+              "nrow(): Anzahl Zeilen",
+              "ncol(): Anzahl Spalten",
+              "read.csv2(): deutsche CSV-Dateien einlesen"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-r-quarto-und-python-004",
+            "type": "schema",
+            "examRelevance": "medium",
+            "front": "Welche wichtigen R-Befehle zur deskriptiven Analyse wurden genannt?",
+            "back": [
+              "tally(): Häufigkeiten",
+              "favstats(): deskriptive Kennzahlen",
+              "gf_bar(): Säulendiagramm",
+              "gf_histogram(): Histogramm",
+              "gf_boxplot(): Boxplot",
+              "gf_point(): Scatterplot"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-r-quarto-und-python-005",
+            "type": "schema",
+            "examRelevance": "medium",
+            "front": "Welche wichtigen R-Befehle zur Regression wurden genannt?",
+            "back": [
+              "gf_lm(): Regressionsgerade",
+              "lm(): lineares Modell",
+              "summary(): Modellzusammenfassung",
+              "coef(): Koeffizienten",
+              "resid(): Residuen",
+              "fitted(): vorhergesagte Werte"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-r-quarto-und-python-006",
+            "type": "schema",
+            "examRelevance": "medium",
+            "front": "Welche wichtigen R-Befehle zur Normalverteilung wurden genannt?",
+            "back": [
+              "pnorm(): Normalverteilungswahrscheinlichkeit",
+              "qnorm(): Normalverteilungsquantil"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-r-quarto-und-python-007",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Was bedeutet die R-Formelsyntax y ~ x?",
+            "back": "y wird in Abhängigkeit von x betrachtet."
+          },
+          {
+            "id": "sem2-quantitative-methoden-r-quarto-und-python-008",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Was bedeutet die R-Formelsyntax y ~ x | z?",
+            "back": "y wird in Abhängigkeit von x betrachtet und nach z gruppiert."
+          },
+          {
+            "id": "sem2-quantitative-methoden-r-quarto-und-python-009",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Was bedeutet die R-Formelsyntax y ~ x1 + x2?",
+            "back": "y wird durch mehrere Prädiktoren x1 und x2 erklärt."
+          },
+          {
+            "id": "sem2-quantitative-methoden-r-quarto-und-python-010",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Was bedeutet die R-Formelsyntax y ~ x1 * x2?",
+            "back": "y ~ x1 * x2 entspricht y ~ x1 + x2 + x1:x2."
+          },
+          {
+            "id": "sem2-quantitative-methoden-r-quarto-und-python-011",
+            "type": "schema",
+            "examRelevance": "low",
+            "front": "Wie können R und Python mit reticulate aufeinander zugreifen?",
+            "back": [
+              "Python auf R: r.Objektname",
+              "R auf Python: py$Objektname"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-r-quarto-und-python-012",
+            "type": "list",
+            "examRelevance": "low",
+            "front": "Welche Python-Pakete wurden genannt?",
+            "back": [
+              "pandas",
+              "numpy",
+              "matplotlib",
+              "scipy.stats",
+              "statsmodels"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-r-quarto-und-python-013",
+            "type": "comparison",
+            "examRelevance": "low",
+            "front": "Wie werden R und Python im Lernzettel verglichen?",
+            "back": [
+              "R ist für Statistik oft direkter.",
+              "Python ist flexibler und breiter einsetzbar."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "klausurformulierungen",
+        "title": "Klausurorientierte Interpretationssätze",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-001",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie formuliert man, dass eine Variable nominalskaliert ist?",
+            "back": "Die Variable ist nominalskaliert, weil sie Kategorien ohne natürliche Rangfolge enthält."
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-002",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie formuliert man, dass eine Variable ordinalskaliert ist?",
+            "back": "Die Variable ist ordinalskaliert, weil die Kategorien eine Reihenfolge besitzen, die Abstände aber nicht interpretierbar sind."
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-003",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie formuliert man, dass eine Variable verhältnisskaliert ist?",
+            "back": "Die Variable ist verhältnisskaliert, weil sie einen natürlichen Nullpunkt besitzt und Verhältnisse sinnvoll interpretierbar sind."
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-004",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie beschreibt man ein rechtsschiefes Histogramm?",
+            "back": "Das Histogramm zeigt eine rechtsschiefe Verteilung: Die meisten Werte liegen im unteren Bereich, während einzelne hohe Werte einen langen rechten Ausläufer bilden."
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-005",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie beschreibt man eine bimodale Verteilung?",
+            "back": "Die Verteilung ist bimodal, weil zwei deutliche Gipfel sichtbar sind. Das kann auf zwei unterschiedliche Teilgruppen hinweisen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-006",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie beschreibt man einen Boxplot?",
+            "back": "Die Box reicht von Q1 bis Q3 und enthält die mittleren 50 Prozent der Daten. Der dicke Strich zeigt den Median. Punkte außerhalb der Whisker sind potenzielle Ausreißer."
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-007",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie beschreibt man Mittelwert vs. Median bei schiefen Verteilungen?",
+            "back": "Bei schiefen Verteilungen ist der Median robuster, weil er weniger stark durch Ausreißer beeinflusst wird als der Mittelwert."
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-008",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie beschreibt man die Steigung in der Regression?",
+            "back": "Die Steigung bedeutet, dass sich y im Mittel um b1 Einheiten verändert, wenn x um eine Einheit steigt."
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-009",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie beschreibt man den Intercept in der Regression?",
+            "back": "Der Intercept beschreibt den erwarteten Wert von y, wenn alle Prädiktoren den Wert 0 haben. Er ist nur sinnvoll interpretierbar, wenn dieser Fall inhaltlich plausibel ist."
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-010",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie interpretiert man R² = 0.84?",
+            "back": "Ein R² von 0,84 bedeutet, dass 84 Prozent der Variation der abhängigen Variable durch das Modell erklärt werden. Es bedeutet nicht, dass 84 Prozent der Einzelwerte korrekt vorhergesagt wurden."
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-011",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie interpretiert man ein systematisches Muster im Residualplot?",
+            "back": "Da im Residualplot ein systematisches Muster erkennbar ist, scheint das lineare Modell nicht alle relevanten Strukturen der Daten zu erfassen."
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-012",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie beschreibt man ein 95%-Konfidenzintervall?",
+            "back": "Das 95%-Konfidenzintervall enthält plausible Werte für den unbekannten Populationsparameter. Werte außerhalb des Intervalls sind mit den Daten weniger kompatibel."
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-013",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie beschreibt man den p-Wert?",
+            "back": "Der p-Wert gibt an, wie wahrscheinlich ein mindestens so extremes Ergebnis unter Annahme der Nullhypothese wäre. Er ist nicht die Wahrscheinlichkeit, dass die Nullhypothese wahr ist."
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-014",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie formuliert man Signifikanz bei p < 0.05?",
+            "back": "Da p < 0.05, wird die Nullhypothese verworfen. Das Ergebnis ist statistisch signifikant."
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurformulierungen-015",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie formuliert man Nicht-Signifikanz bei p ≥ 0.05?",
+            "back": "Da p ≥ 0.05, wird die Nullhypothese nicht verworfen. Ein statistisch signifikanter Effekt kann nicht gezeigt werden."
+          }
+        ]
+      },
+      {
+        "id": "formelsammlung",
+        "title": "Kompakte Formelsammlung",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-001",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die Formel für das arithmetische Mittel?",
+            "back": "x̄ = 1/n · Σx_i"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-002",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die Formel für den IQR?",
+            "back": "IQR = Q3 - Q1"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-003",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie lautet die Formel für die Spannweite?",
+            "back": "Range = Max - Min"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-004",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die Formel für den z-Wert?",
+            "back": "z = (x - μ) / σ"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-005",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die Formel der empirischen Verteilungsfunktion?",
+            "back": "F_n(x) = Anzahl Beobachtungen ≤ x / n"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-006",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie lautet die Formelidee der totalen Wahrscheinlichkeit?",
+            "back": "P(Defekt) = Σ P(Defekt|Gruppe)P(Gruppe)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-007",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die Bayes-Formel aus dem Lernzettel?",
+            "back": "P(B|Defekt) = P(Defekt|B)P(B) / P(Defekt)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-008",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie schreibt man eine Normalverteilung?",
+            "back": "X ~ N(μ, σ)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-009",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie schreibt man eine Standardnormalverteilung?",
+            "back": "Z ~ N(0,1)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-010",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet das lineare Regressionsmodell?",
+            "back": "y_i = β0 + β1x_i + ε_i"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-011",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die Regressionsgleichung für vorhergesagte Werte?",
+            "back": "ŷ = b0 + b1x"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-012",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie lautet der Zusammenhang zwischen Steigung, Korrelation und Standardabweichungen?",
+            "back": "b1 = r · s_y / s_x"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-013",
+            "type": "formulation",
+            "examRelevance": "medium",
+            "front": "Wie lautet der OLS-Schätzer in Matrixform?",
+            "back": "β̂ = (X'X)^(-1)X'y"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-014",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet R² als Anteil erklärter Variation?",
+            "back": "R² = erklärte Variation / gesamte Variation"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-015",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet der Standardfehler für Mittelwerte?",
+            "back": "SE = s / √n"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-016",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet der Standardfehler für Anteilswerte?",
+            "back": "SE_p̂ = √(p(1-p)/n)"
+          },
+          {
+            "id": "sem2-quantitative-methoden-formelsammlung-017",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die Näherung für ein Konfidenzintervall?",
+            "back": "KI ≈ Punktschätzer ± 2 · SE"
+          }
+        ]
+      },
+      {
+        "id": "klausurprioritaeten-und-mini-spickzettel",
+        "title": "Klausurprioritäten und Mini-Spickzettel",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-klausurprioritaeten-und-mini-spickzettel-001",
+            "type": "list",
+            "examRelevance": "high",
+            "front": "Welche Inhalte haben laut Lernzettel höchste Klausurpriorität?",
+            "back": [
+              "Skalenniveaus sicher erkennen",
+              "Passende Grafik je Datentyp wählen",
+              "Histogramm, Boxplot und Mosaikplot interpretieren",
+              "Mittelwert, Median, IQR und SD unterscheiden",
+              "Normalverteilung, z-Wert, pnorm und qnorm können",
+              "Korrelation vs. Kausalität sauber trennen",
+              "Regression interpretieren: Intercept, Steigung, Residuen, R²",
+              "Dummy-Variablen und Referenzkategorien verstehen",
+              "Interaktionsterme interpretieren",
+              "Bootstrapping vs. Permutation unterscheiden",
+              "Konfidenzintervall und p-Wert korrekt formulieren",
+              "Fehler 1. Art und Fehler 2. Art erklären"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurprioritaeten-und-mini-spickzettel-002",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche Methode passt zu einer kategorialen Variable?",
+            "back": [
+              "Säulendiagramm",
+              "Häufigkeitstabelle"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurprioritaeten-und-mini-spickzettel-003",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche Methode passt zu zwei kategorialen Variablen?",
+            "back": [
+              "Kreuztabelle",
+              "Mosaikplot"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurprioritaeten-und-mini-spickzettel-004",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche Methode passt zu einer metrischen Variable?",
+            "back": [
+              "Histogramm",
+              "Boxplot",
+              "Lagemaße",
+              "Streumaße"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurprioritaeten-und-mini-spickzettel-005",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche Methode passt zu zwei metrischen Variablen?",
+            "back": [
+              "Scatterplot",
+              "Korrelation",
+              "Regression"
+            ]
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurprioritaeten-und-mini-spickzettel-006",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche Methode passt zu metrischem y und kategorialem x?",
+            "back": "Regression mit Dummy-Variablen"
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurprioritaeten-und-mini-spickzettel-007",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche Methode passt bei mehreren Prädiktoren?",
+            "back": "Multiple Regression"
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurprioritaeten-und-mini-spickzettel-008",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche Methode passt bei unterschiedlichen Steigungen je Gruppe?",
+            "back": "Interaktion"
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurprioritaeten-und-mini-spickzettel-009",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche Methode passt zur Unsicherheit eines Schätzers?",
+            "back": "Bootstrapping"
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurprioritaeten-und-mini-spickzettel-010",
+            "type": "schema",
+            "examRelevance": "high",
+            "front": "Welche Methode passt zum Test gegen eine Nullhypothese?",
+            "back": "Permutationstest beziehungsweise Hypothesentest"
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurprioritaeten-und-mini-spickzettel-011",
+            "type": "schema",
+            "examRelevance": "medium",
+            "front": "Welche Funktion nutzt man für eine Wahrscheinlichkeit links von einem Wert?",
+            "back": "pnorm"
+          },
+          {
+            "id": "sem2-quantitative-methoden-klausurprioritaeten-und-mini-spickzettel-012",
+            "type": "schema",
+            "examRelevance": "medium",
+            "front": "Welche Funktion nutzt man für den Wert zu einer Wahrscheinlichkeit?",
+            "back": "qnorm"
+          }
+        ]
+      },
+      {
+        "id": "gesamtzusammenfassung",
+        "title": "Gesamtzusammenfassung",
+        "cards": [
+          {
+            "id": "sem2-quantitative-methoden-gesamtzusammenfassung-001",
+            "type": "formulation",
+            "examRelevance": "high",
+            "front": "Wie lautet die Ein-Satz-Zusammenfassung des gesamten Moduls?",
+            "back": "Quantitative Datenanalyse bedeutet, Daten methodisch sauber zu erheben, anhand ihres Skalenniveaus korrekt zu beschreiben, Verteilungen und Zusammenhänge mit passenden Grafiken und Kennzahlen zu analysieren, lineare Modelle sinnvoll zu interpretieren und mithilfe von Inferenzstatistik Unsicherheit, Signifikanz und Grenzen der Aussagekraft transparent zu machen."
+          }
+        ]
+      }
+    ]
+  }
+}
